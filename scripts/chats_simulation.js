@@ -2,18 +2,16 @@ import OpenAI from "openai";
 import { zodResponseFormat } from "openai/helpers/zod";
 import { z } from "zod";
 import fs from "fs";
-
+import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-const timestamp = new Date().toISOString().replace(/:/g, "-"); // Replace colons to avoid issues in filenames
-
 ////////////////////// define constants ///////////////////////////////////////////////
 const NUM_OF_CHATS = 20;
-const OUTPUT_FILE_PATH = `./data/output/simulated_chats_${NUM_OF_CHATS}_${timestamp}.json`;
-const MODE = "example"; // "example" mode will use the example COURSE_CONTEXT. "all" mode will go through the folder structure in the input folder.
-
+const MODE = "all"; // We are now processing all files
+const INPUT_DIR = "./data/input"; // Input folder path
+const OUTPUT_DIR = "./data/output/chats"; // Output folder path
 const AI_TUTOR_PROMPT = `
 You are a helpful assistant serving as a teaching assistant in an intro programming course (in python).
 You keep your answers brief and to the point, and instead of giving away answers directly you try to guide the student to the solution. Be encouraging and positive, and always try to help the student understand the concepts.
@@ -24,42 +22,9 @@ Accordingly, make sure to pay attention to the context of the conversation and t
 Lastly, as I said before, keep it brief/concise as to avoid overwhelmingly the student.
 `;
 
-const COURSE_CONTEXT = `
-# Summary of CIS 3260 - Introduction to Programming Individual Assignment 1
-
-## Purpose:
-The assignment aims to introduce fundamental programming concepts using Python, focusing on writing simple programs, debugging, and understanding types of programming errors. Students are tasked with implementing code that includes user interaction, mathematical computations, and error analysis.
-
-## Main Topics Covered:
-
-1. **Basic Output**:
-   - Write a program to display specific string messages.
-   - Focuses on understanding simple output functions and program structure.
-
-2. **Mathematical Expressions**:
-   - Create a program to compute and display the result of an algebraic expression.
-   - Teaches the use of mathematical operators and the importance of syntax in Python programming.
-
-3. **User Input and Variable Manipulation**:
-   - Develop a program to calculate average velocity using user-provided data (start distance, end distance, and time).
-   - Introduces concepts such as input functions, variable assignment, and basic arithmetic operations.
-
-4. **Error Identification and Resolution**:
-   - Each programming task requires students to document programming errors encountered, categorize them as syntax, runtime, or logical errors, and explain how they were resolved.
-   - Emphasizes the importance of problem-solving in programming and familiarizes students with debugging techniques.
-
-## Critical Details:
-- Each program must be properly documented with comments for clarity and should follow a naming convention (IA1Q#.py).
-- Along with the source code, students must submit a Word document (IA1.doc) summarizing their programming experience, including errors faced and time spent resolving them.
-- Specific learning objectives align with different tasks throughout the assignment, ensuring students absorb critical programming concepts and best practices during their initial programming experience.
-
-This assignment lays the foundation for programming skills, promoting a structured approach to coding, troubleshooting, and effective documentation.
-`;
-
 const STUDENT_PERSONA = `
 Asha Patel, a 19-year-old Psychology undergraduate from Singapore, is deeply interested in integrating technology with mental health services. She is currently pursuing her Bachelor's degree and taking an introductory programming course to learn how software development can support this field. Asha is passionate about creating a mobile application aimed at helping teenagers manage stress and anxiety, blending her love for psychology with her burgeoning interest in technology. Despite her enthusiasm, she finds the logical aspects of programming challenging and struggles with technical jargon, making it difficult to quickly grasp theoretical concepts. Asha prefers practical assignments and hands-on projects over theoretical readings, actively participates in online discussions, seeks clarification from classmates and professors, and often collaborates in study groups or experiments with coding exercises in the tech lab.
 `;
-////////////////////////////////////////////////////////////////////////////////////////
 
 // schema
 const ChatsDetails = z.object({
@@ -71,26 +36,49 @@ const ChatsDetails = z.object({
   ),
 });
 
-async function main() {
+// Recursively get all files in a directory
+const getFilesInDirectory = (dir) => {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  list.forEach((file) => {
+    const filePath = path.join(dir, file);
+
+    // Skip over unwanted files like .DS_Store and hidden files
+    if (file.startsWith(".")) return;
+
+    const stat = fs.statSync(filePath);
+    if (stat && stat.isDirectory()) {
+      // Recursively fetch files from subdirectories
+      results = results.concat(getFilesInDirectory(filePath));
+    } else {
+      results.push(filePath);
+    }
+  });
+  return results;
+};
+
+// Function to process a file and generate simulated chat
+const processFile = async (filePath) => {
+  const courseContext = fs.readFileSync(filePath, "utf-8");
   const completion = await openai.chat.completions.create({
     messages: [
       {
         role: "system",
-        content: ` 
+        content: `
 
         Student Persona: ${STUDENT_PERSONA};
 
-        Course Context: ${COURSE_CONTEXT};
+        Course Context: ${courseContext};
 
         AI Tutor Prompt: ${AI_TUTOR_PROMPT};
-        
+
         """
         Based on the above information, help me simulate ${NUM_OF_CHATS} back and forth conversations between AI Tutor and a human student in the Course Context.
 
-
-
-        role: either 'assistant' or 'user'. assistant represent AI tutor. user represents human student;
+        role: either 'assistant' or 'user'. assistant represents AI tutor, user represents human student;
         content: is the simulated conversation.
+
+        Please note that conversations do not necessarily need to reach a conclusion; you can represent a variety of content styles and student emotions, including happiness, anger, and distress.
         `,
       },
     ],
@@ -99,9 +87,48 @@ async function main() {
   });
 
   const personas = completion?.choices?.[0]?.message?.content;
+  return personas;
+};
 
-  // Save to file
-  fs.writeFileSync(OUTPUT_FILE_PATH, personas);
+// Function to generate output file path with the same structure in the output folder
+const generateOutputFilePath = (inputFilePath) => {
+  const relativePath = path.relative(INPUT_DIR, inputFilePath);
+  const outputFilePath = path.join(
+    OUTPUT_DIR,
+    path.dirname(relativePath),
+    `simulated_chat_${path.basename(inputFilePath)}.json`
+  );
+  return outputFilePath;
+};
+
+// Ensure output directory exists
+const ensureDirectoryExists = (filePath) => {
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+};
+
+async function main() {
+  // Get all files in the input directory
+  const files = getFilesInDirectory(INPUT_DIR);
+
+  for (const file of files) {
+    try {
+      // Process each file and generate a simulated chat
+      const simulatedChat = await processFile(file);
+
+      // Generate output file path and ensure the directory exists
+      const outputFilePath = generateOutputFilePath(file);
+      ensureDirectoryExists(outputFilePath);
+
+      // Write the simulated chat to the output file
+      fs.writeFileSync(outputFilePath, simulatedChat);
+      console.log(`Successfully processed and saved: ${outputFilePath}`);
+    } catch (error) {
+      console.error(`Error processing file ${file}:`, error);
+    }
+  }
 }
 
 main();

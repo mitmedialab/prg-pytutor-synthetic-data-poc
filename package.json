@@ -6,6 +6,7 @@
   "scripts": {
     "persona": "node scripts/personas_generation.js",
     "chats_simulation": "node scripts/chats_simulation.js",
+    "rename": "node scripts/rename.js",
     "test": "node persona.js"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "fs": "^0.0.1-security",
     "langchain": "^0.0.135",
     "openai": "^4.56.0",
+    "path": "^0.12.7",
     "zod": "^3.23.8"
   },
   "type": "module"
