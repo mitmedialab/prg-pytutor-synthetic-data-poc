@@ -1,0 +1,48 @@
+### Summary of Lecture Slides for Introductory Programming Course
+
+#### Objectives 
+In this class, students will:
+- Learn to invoke functions using **positional** and **keyword arguments**.
+- Understand how to call functions defined in other programs.
+- Apply the concept of functions in software development and design.
+
+---
+
+#### Main Topics Covered
+
+1. **Function Invocation**
+   - **Positional Arguments**: Arguments must match the function's parameters in order, number, and compatible type.
+     - Example: Correct usage (`nPrintln("CIS", 3)`), Incorrect usages include wrong order or type mismatches.
+   - **Keyword Arguments**: Arguments match the parameters by name, allowing flexibility in order.
+     - Example: Correct (`nPrintln(message="CIS", n=3)`), but incorrect if number of arguments is mismatched.
+   - **Combination**: You can mix positional and keyword arguments, but positional must come first.
+     - Correct and incorrect examples illustrated.
+
+2. **Using Functions from Other Programs**
+   - **Importing Whole Program**: Example of importing functions from another file (module) and accessing them with dot notation.
+   - **Importing Specific Functions**: Allows for direct function calls without dot notation.
+
+3. **User-Defined Functions Benefits**
+   - Code reuse, encapsulation, manageability of problems, debugging ease, and improved teamwork.
+
+4. **Case Study: Print Calendar**
+   - Introduction to creating a calendar program using a stepwise refinement approach.
+   - Input prompts and output designs detailed.
+   - System design diagrams and flowcharts provided to show function interactions, including reading input, printing month titles, and handling different days.
+   - Concept of **stubs** for testing program framework without full implementation.
+
+5. **Implementation Details**
+   - Coding details available, featuring a structured outline of function definitions and overall program functionality.
+
+--- 
+
+#### Critical Details
+- The importance of parameter matching in function calls: Order, number, and types must be consistent.
+- How to structure a program using functions to promote clarity and modularity.
+- The design process using stubs as temporary implementations to guide development.
+- Basic input/output handling is crucial for user interaction in programming projects.
+- Real-world applicability demonstrated through the calendar program, emphasizing comprehensive planning and design principles.
+
+--- 
+
+This summary encapsulates the essential elements covered in the lecture slides, aiding student comprehension and retention of function usage in programming.

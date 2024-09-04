@@ -1,0 +1,28 @@
+**Summary of In-Class Exercise for Introductory Programming Course: Exercise 7.1**
+
+**Objectives:**
+The exercise addresses three key objectives (7.1, 7.2, 7.3) related to the use of lists in programming.
+
+**Topics Covered:**
+
+1. **Project Topics Discussion:**
+   Students are tasked with discussing their project proposals, specifically evaluating whether lists should be utilized in the following project ideas:
+   - **A student health program**: Tracks daily health status.
+   - **Text-based online banking system**: Manages user accounts and transactions.
+   - **Contact Book**: Stores information for digital device users.
+   - **Gift Recommendation program**: Provides gift suggestions based on user preferences.
+   - **Password generator**: Creates secure passwords.
+   - **Rock, Paper, Scissors game**: Implements the classic game with user input.
+
+2. **Creating and Analyzing Lists:**
+   Students create two separate lists:
+   - **List of Company Names**: Includes major tech companies (Amazon, Google, Facebook, IBM).
+   - **List of Stock Prices**: Corresponding prices of those companies (340.5, 400, 230, 198).
+   
+   Students are required to display:
+   - **Maximum stock price**: Identifying the highest value in the stock prices list.
+   - **Minimum stock price**: Identifying the lowest value in the stock prices list.
+   - **Number of companies**: Counting the entries in the company names list.
+   - **Sum of stock prices**: Calculating the total of all stock prices listed.
+
+This exercise aims to reinforce the understanding of lists in programming, their practical applications in project development, and basic operations such as finding maximum, minimum, and summing elements within lists.

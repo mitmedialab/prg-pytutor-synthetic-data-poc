@@ -1,0 +1,39 @@
+### Summary of CIS 3260 – Introduction to Programming Individual Assignment 4
+
+**General Purpose:**
+The assignment is designed to reinforce fundamental programming concepts using Python while focusing on systematic problem-solving, coding best practices, and debugging techniques. It emphasizes applying mathematical formulas and using programming constructs like conditional statements and loops.
+
+**Main Topics Covered:**
+
+1. **Program Structure and Documentation:**
+   - Importance of commenting code for readability.
+   - Proper naming conventions for Python scripts.
+
+2. **Area Calculation for Regular Polygons:**
+   - Development of a calculator to compute the area of regular polygons using the formula: 
+     \[ \text{area} = \frac{n \cdot s^2}{4 \cdot \tan(\pi/n)} \]
+   - Tasks include system analysis, understanding inputs/outputs, and implementing calculations.
+
+3. **Grade Conversion Application:**
+   - Creation of a program to convert letter grades (A, B, C, D) to numeric values.
+   - Focus on user input validation and proper handling of invalid inputs.
+   - Emphasis on using conditional statements for decision-making.
+
+4. **Leap Year and Days in a Month Computation:**
+   - Development of a software that determines the number of days in a specified month of a given year, including handling leap years.
+   - Includes practical application of Boolean expressions to validate the leap year condition.
+
+5. **Error Handling and Debugging:**
+   - Students are required to document errors encountered during coding, categorizing them as syntax, runtime, or logical errors.
+   - Emphasizing the importance of debugging and the time spent resolving issues, promoting persistence in problem-solving.
+
+6. **Learning Objectives:**
+   - Cover fundamental programming concepts including Boolean expressions, selection control structures, and using mathematical functions from the Python math module.
+   - Integrate knowledge from chapters focused on logical operations, string processing, and implementing decision control structures.
+
+**Critical Details:**
+- Students must submit their Python scripts alongside a Word document summarizing their answers and experiences.
+- The assignment is structured to provide both theoretical knowledge and practical coding experience, reinforcing concepts learned in lectures.
+- Use of PyCharm is recommended for coding, directing attention to an integrated development environment familiarization.
+
+This assignment combines core programming skills with real-world applications, ensuring students not only learn to code but also understand the underlying principles and practices essential for any programmer.

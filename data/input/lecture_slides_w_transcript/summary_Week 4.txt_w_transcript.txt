@@ -1,0 +1,55 @@
+## Summary of Week 4 Lecture: Introductory Programming Course
+
+### General Purpose
+This week's lecture focused on enhancing students' understanding of the software development process and control structures in programming, particularly related to selection statements and Boolean expressions. The session emphasized practical applications by guiding students through the development of a loan payment calculation program.
+
+### Main Topics Covered
+
+1. **Software Development Process**:
+   - Introduction to the stages of software development:
+     - Requirement Specification
+     - System Analysis
+     - System Design
+     - Implementation
+     - Testing
+     - Deployment
+     - Maintenance
+   - Explanation of the Waterfall Model and the importance of each phase in ensuring a successful software project.
+
+2. **Implementation of Loan Payment Program (ComputeLoan)**:
+   - Step-by-step approach to developing a program that calculates monthly and total loan payments based on user inputs.
+   - Key calculations were illustrated:
+     - Conversion of annual interest rate to monthly interest rate.
+     - Calculation formulas for monthly and total payment using:
+     
+     \[
+     \text{monthlyPayment} = \frac{\text{loanAmount} \times \text{monthlyInterestRate}}{1 - \frac{1}{(1 + \text{monthlyInterestRate})^{\text{numberOfYears} \times 12}}}
+     \]
+
+3. **Boolean Expressions and Control Flow**:
+   - Understanding Boolean expressions and their role in programming:
+     - Writing Boolean expressions utilizing relational operators (e.g., ==, !=, <, >).
+     - Implementation of selection control structures using:
+       - One-way `if` statements for simple decision-making.
+       - Two-way `if-else` statements for handling conditions with alternate pathways.
+       - Nested `if-elif-else` statements for multiway decisions.
+   - Logical operators (and, or, not) were discussed for combining conditions in `if` statements.
+
+4. **Selection Statements in Action**:
+   - Practical examples were provided for implementing selection statements in the ComputeLoan program:
+     - Only executing calculations if the interest rate is non-negative.
+     - Providing user feedback when inputs do not meet expected conditions (e.g., negative interest rates).
+   - Illustrations of execution flow through diagrams and live coding to make the concepts tangible.
+
+5. **Testing and Verification**:
+   - The importance of testing the program with sample inputs to ensure accuracy of calculations.
+   - A brief discussion on Quality Assurance (QA) processes in testing software.
+
+### Critical Details
+- The lecture emphasized the need for clear documentation and stepwise development, ensuring that each stage of the software development process is carefully approached.
+- The use of logical and relational operators in constructing conditions was highlighted as critical skills for programmers.
+- Key programming practices discussed included maintaining clean code through proper indentation and employing clear logic to avoid errors in program execution.
+- The introduction of the `round()` function to manage decimal places in financial calculations was also covered.
+
+### Conclusion
+Students were encouraged to practice the concepts covered, particularly in the context of selection statements and the software development life cycle. Homework exercises focused on applying these principles were assigned to deepen understanding and proficiency.

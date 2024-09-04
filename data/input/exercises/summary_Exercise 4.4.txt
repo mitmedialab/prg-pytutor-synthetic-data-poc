@@ -1,0 +1,23 @@
+## Summary of In-Class Exercise 4.4
+
+**Objective:** This exercise focuses on string manipulation in programming, specifically based on objectives 4.9 to 4.11.
+
+### Main Topics Covered:
+- Accessing string characters
+- Slicing strings
+- Concatenating strings
+- Repeating strings
+
+### Key Expressions Evaluated:
+1. **s1[0]:** This expression retrieves the first character of the string `s1`, which is "p".
+   
+2. **s1[:5]:** This expression slices the string `s1` to return the first five characters, resulting in "prog".
+
+3. **s1[5:]:** This expression slices `s1` starting from the 6th character to the end, giving "amming 101".
+
+4. **s1+s2:** This expression concatenates `s1` and `s2`, resulting in "programming 101programming is fun".
+
+5. **s1*2:** This expression repeats the string `s1` twice, resulting in "programming 101programming 101".
+
+### Conclusion:
+The exercise reinforces understanding of fundamental string operations such as indexing, slicing, concatenation, and repetition, which are crucial for effective string manipulation in programming.

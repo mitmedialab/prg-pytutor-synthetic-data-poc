@@ -1,0 +1,164 @@
+{
+  "personas": [
+    {
+      "id": "1",
+      "name": "Aisha Khan",
+      "occupation": "Computer Science Undergraduate",
+      "details": "Age 19, female, sophomore at a public university. Aisha is the first in her family to attend college and is passionate about technology and its potential to impact society. She is excited to learn the fundamentals of programming to develop solutions for community problems.",
+      "challenges": "Aisha struggles with imposter syndrome in a male-dominated field and has limited access to resources outside of school.",
+      "interactions": "She engages in online forums and attends office hours to clarify doubts and seeks group study sessions to enhance her understanding."
+    },
+    {
+      "id": "2",
+      "name": "Liam O'Reilly",
+      "occupation": "Business Major",
+      "details": "Age 21, male, junior at a liberal arts college. Liam decided to take an introductory programming course to complement his business studies with technical skills, aiming to pursue a career in tech management.",
+      "challenges": "Liam finds logical thinking and abstract concepts difficult, as his background is more numbers-oriented than code logic.",
+      "interactions": "He utilizes video tutorials and actively participates in class discussions to fill gaps in understanding."
+    },
+    {
+      "id": "3",
+      "name": "Sofia Rodriguez",
+      "occupation": "Art History Student",
+      "details": "Age 22, female, senior who is passionate about digital art and its intersection with technology. Sofia wants to learn programming to develop interactive art installations.",
+      "challenges": "Sofia battles with procrastination and balancing time between creative projects and technical coursework.",
+      "interactions": "She prefers visual learning tools and enjoys hands-on projects that allow her to apply her artistic skills to coding."
+    },
+    {
+      "id": "4",
+      "name": "Mohammed El-Sayed",
+      "occupation": "Engineering Freshman",
+      "details": "Age 18, male, recent high school graduate exploring different engineering disciplines. Mohammed is eager to gain a strong foundation in programming to decide his future specialization.",
+      "challenges": "He struggles with time management and the fast pace of college courses.",
+      "interactions": "Mohammed regularly reviews lecture notes and participates in study groups to stay on track."
+    },
+    {
+      "id": "5",
+      "name": "Jin Park",
+      "occupation": "Information Technology Student",
+      "details": "Age 23, non-binary, pursuing a degree at a tech-focused institute. Jin hopes to build software that enhances accessibility for people with disabilities.",
+      "challenges": "Experiences difficulty in translating theoretical concepts into practical applications.",
+      "interactions": "Relies on coding bootcamps and online forums for additional practical insights and support."
+    },
+    {
+      "id": "6",
+      "name": "Carlos Mendez",
+      "occupation": "Physics Major",
+      "details": "Age 20, male, a junior interested in computational physics. Carlos is taking this course to develop programming skills necessary for simulations and modeling in his field.",
+      "challenges": "Overcoming language barriers as Spanish is his first language, making it challenging to follow technical documentation.",
+      "interactions": "He uses translation tools and study apps to aid comprehension, often collaborating with peers for language support."
+    },
+    {
+      "id": "7",
+      "name": "Emily Wang",
+      "occupation": "Psychology Undergrad",
+      "details": "Age 19, female, with a keen interest in cognitive sciences. Emily wants to learn programming to explore artificial intelligence in mental health treatment.",
+      "challenges": "Finds it hard to connect abstract programming concepts with her primary field of study.",
+      "interactions": "Active in online courses with AI-related content, and enjoys experimental projects that blend psychology and technology."
+    },
+    {
+      "id": "8",
+      "name": "Raj Patel",
+      "occupation": "Mathematics Student",
+      "details": "Age 17, male, starting at a large university busy with calculus and algebra courses. Raj is taking programming to gain an edge in data science and analytics.",
+      "challenges": "Struggles with debugging complex programs due to lack of patience and focus.",
+      "interactions": "Engages in challenge-based learning and competitions to practice and improve attention to detail."
+    },
+    {
+      "id": "9",
+      "name": "Amara Johnson",
+      "occupation": "Nursing Student",
+      "details": "Age 20, female, focusing on health informatics to enhance patient care using technology. Amara is new to programming and sees its potential in modern healthcare systems.",
+      "challenges": "Limited technical background makes tackling new programming terms and syntax onerous.",
+      "interactions": "Attends extra labs and prefers tutorials that relate coding concepts to healthcare applications."
+    },
+    {
+      "id": "10",
+      "name": "Felix Müller",
+      "occupation": "Environmental Science Student",
+      "details": "Age 21, male, with aspirations to apply technology in solving ecological issues. Felix is keen on data analysis and visualization techniques for environmental research.",
+      "challenges": "Has difficulty understanding the transition from high-level overviews to detailed coding instructions.",
+      "interactions": "Uses detailed diagrams and flowcharts to visually parse programming structures, finds videos beneficial."
+    },
+    {
+      "id": "11",
+      "name": "Nia Thompson",
+      "occupation": "Music Major",
+      "details": "Age 18, female, freshman passionate about music production. Nia wants to explore programming for creating software instruments and audio plugins.",
+      "challenges": "Struggles to stay motivated through technical, non-musical parts of the course.",
+      "interactions": "Looks for ways to connect coding to music projects, such as digital audio processing, to maintain interest."
+    },
+    {
+      "id": "12",
+      "name": "Omar Haddad",
+      "occupation": "Political Science Student",
+      "details": "Age 22, male, interested in leveraging programming skills to analyze voter trends and behaviors. Omar plans to apply data analytics to political advocacy work.",
+      "challenges": "Balancing time between political assignments and intensive programming tasks is his main hurdle.",
+      "interactions": "Seeks out interactive data visualizations and analytics projects to synthesize political and programming interests."
+    },
+    {
+      "id": "13",
+      "name": "Natalie Williams",
+      "occupation": "Liberal Arts Student",
+      "details": "Age 19, female, passionate about global cultures and stories. Natalie believes coding can help broaden her digital storytelling abilities.",
+      "challenges": "Needs to overcome a high initial learning curve for programming syntax and logic.",
+      "interactions": "Engages with storytelling software to contextualize her learning and prefers narrative-driven projects."
+    },
+    {
+      "id": "14",
+      "name": "Arjun Nair",
+      "occupation": "Chemistry Major",
+      "details": "Age 20, male, focuses on computational chemistry to synthesize new compounds. Arjun eagerly approaches programming to aid in chemical modeling experiments.",
+      "challenges": "Finds integrating math-heavy coding tasks into chemistry projects daunting.",
+      "interactions": "Enjoys interdisciplinary projects and uses software to simulate chemical reactions, reinforcing programming applications in chemistry."
+    },
+    {
+      "id": "15",
+      "name": "Elsa Sønderskov",
+      "occupation": "Anthropology Student",
+      "details": "Age 23, female, interested in digital anthropology and cultural data analysis. Elsa sees programming as a tool for qualitative data processing in anthropological research.",
+      "challenges": "Data structures and algorithms challenge her due to their abstract nature, diverging from qualitative analysis.",
+      "interactions": "Works with anthropological datasets to practice coding skills and relates data structures to cultural patterns."
+    },
+    {
+      "id": "16",
+      "name": "Diego Alvarez",
+      "occupation": "Digital Media Student",
+      "details": "Age 18, male, passionate about film and interactive storytelling. Diego wants to learn game development to create immersive experiences.",
+      "challenges": "Lacks patience with debugging and refining code details.",
+      "interactions": "Volunteers for peer reviews and seeks mentorship from instructors to enhance problem-solving and attention to code intricacies."
+    },
+    {
+      "id": "17",
+      "name": "Mika Tanaka",
+      "occupation": "Economics Major",
+      "details": "Age 21, female, interested in the intersection of technology and economic trends. Mika considers programming skills crucial for future roles in economic consulting.",
+      "challenges": "Faces difficulty in translating economic models into programming algorithms.",
+      "interactions": "Engages in case studies and seeks support from forums to better understand the practical application of programming to economics."
+    },
+    {
+      "id": "18",
+      "name": "Neha Kapoor",
+      "occupation": "Biology Student",
+      "details": "Age 19, female, interested in bioinformatics and genomic research. Neha hopes to learn programming to analyze complex biological data.",
+      "challenges": "Handling large datasets overwhelms her, especially in understanding memory management.",
+      "interactions": "Participates in data challenges and uses modular coding approaches to incrementally build solutions to biological queries."
+    },
+    {
+      "id": "19",
+      "name": "Alex Marino",
+      "occupation": "Journalism Student",
+      "details": "Age 18, non-binary, passionate about media and technology transformation. Alex wants to explore how data journalism can be enhanced through programming.",
+      "challenges": "Technical jargon slows down Alex's learning frequency in understanding code execution flow.",
+      "interactions": "Prefers courses that combine journalism case studies with technical skills to see practical outcomes."
+    },
+    {
+      "id": "20",
+      "name": "Hana Sato",
+      "occupation": "History Student",
+      "details": "Age 22, female, interested in preserving historical data through digital archives. Hana is taking programming to understand how digitization impacts historical research.",
+      "challenges": "Struggles to see the immediate relevance of coding syntax to historical problems.",
+      "interactions": "Engages with historical database management systems, using them as a framework to learn and apply new coding techniques."
+    }
+  ]
+}

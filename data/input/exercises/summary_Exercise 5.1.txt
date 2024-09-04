@@ -1,0 +1,21 @@
+### Summary of In-Class Exercise 5.1 - Introductory Programming Course
+
+**Objectives:**
+The exercise focuses on understanding control flow in programming, specifically using loops, and analyzing code execution.
+
+**Topics Covered:**
+
+1. **Output and Execution Order of a Loop:**
+   - Students are required to determine the output of a provided while loop. The loop increments a variable `count` and prints its value until the condition `count < 4` is no longer met. 
+   - The execution order of the lines of code must also be shown, emphasizing the sequence in which each line is executed during the loop.
+
+2. **Analysis of Loop Conditions:**
+   - Students analyze another loop that continues while `count < 100`. They are tasked with evaluating whether this condition is always True, always False, or varies at three specific points in the code labeled Point A, Point B, and Point C.
+   - This part of the exercise requires understanding how the variable `count` changes as the loop iterates and at what points the condition holds true or not.
+
+**Critical Details:**
+- Knowing the output and control flow is crucial for debugging and understanding programming logic.
+- The exercise reinforces the importance of variable states at different points during execution, which is foundational for developing logical reasoning in programming.
+- The distinctions between runtime-control structures, variable initialization, and incrementation are key takeaways for students. 
+
+This exercise aims to consolidate students' understanding of loops, variable manipulation, and the importance of logical conditions within a programming context.

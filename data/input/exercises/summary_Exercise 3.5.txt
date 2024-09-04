@@ -1,0 +1,20 @@
+### Summary of In-Class Exercise 3.5 for Introductory Programming Course
+
+**Objective:** The exercise focuses on implementing a program that evaluates body temperature, applying concepts of decision-making in programming.
+
+**Topics Covered:**
+1. **Input and Output Analysis:**
+   - The program requires input of body temperature in Fahrenheit.
+   - It outputs a message indicating whether there is a fever or not based on the input temperature.
+
+2. **Two-Way Decision Selection:**
+   - The exercise emphasizes the use of a two-way decision structure (if-else statement) to determine the output.
+   - A condition is established where if the input temperature exceeds 100.4°F, the program will display "Fever!" Otherwise, it will display "No fever." This condition is articulated using a Boolean expression.
+
+3. **System Design:**
+   - The students are guided to outline the logical steps to process input and generate output, ensuring a clear understanding of the programming flow from input to result.
+
+4. **Program Development:**
+   - Finally, participants are tasked with writing the actual code in Python, enabling them to apply their understanding of the discussed concepts in a practical manner.
+
+This exercise enhances students' comprehension of decision-making constructs and reinforces the fundamental programming skills required to develop functional applications.

@@ -1,0 +1,20 @@
+### Summary of In-Class Exercise 2.3
+
+**General Purpose:**
+The exercise aims to reinforce students' understanding of mathematical expressions in Python and the application of geometric formulas to compute the area and volume of a cylinder.
+
+**Main Topics Covered:**
+1. **Mathematical Expressions in Python:**
+   - Students are tasked with constructing a Python expression for calculating the product of an integer `m`, an integer `r`, and the square of `r`. 
+   - They apply basic operations by solving the expression `2 * 23`.
+
+2. **Geometry and Python Programming:**
+   - The exercise guides students to write a Python program that calculates the area and volume of a cylinder based on user input.
+   - Area Formula: \( \text{area} = \text{radius}^2 \times \pi \)
+   - Volume Formula: \( \text{volume} = \text{area} \times \text{length} \)
+
+**Critical Details:**
+- The exercise includes a sample program run demonstrating the input and output, where users enter a radius and length, and the program calculates and displays the corresponding area (95.0330975) and volume (1225.92695775).
+- It emphasizes the importance of using Python for mathematical calculations and enhancing programming skills through real-world applications.
+
+This exercise serves as a practical application of the concepts discussed in this week's lectures, integrating mathematics with programming.

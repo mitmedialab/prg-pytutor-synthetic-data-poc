@@ -1,0 +1,25 @@
+## Summary of In-Class Exercise 6.5
+
+### General Purpose
+The in-class exercise aims to reinforce concepts learned in the week's lecture by utilizing Python to create and test functions in different files.
+
+### Main Topics Covered
+1. **Creating Python Functions**: Students are tasked with writing a Python program, `Greet.py`, containing functions that greet users in various ways.
+   
+   - **Functions Included**:
+     - `greet()`: Prints a generic greeting.
+     - `greetName(name)`: Accepts a name parameter and prints a personalized greeting.
+     - `greetTwice()`: Prints the greeting twice in succession.
+
+2. **Testing Python Functions**: Students will write a second program, `TestGreet.py`, to test the functions defined in `Greet.py`.
+
+   - **Testing Functions**: The `TestGreet.py` program calls the functions from `Greet.py`, checking syntax and functionality by using:
+     - `greet()`
+     - `greetName("John")`
+     - `greetTwice()`
+
+### Critical Details
+- **File Organization**: Both `Greet.py` and `TestGreet.py` should be created in the same directory to ensure proper access to function definitions.
+- **Error Handling**: Students are prompted to run `TestGreet.py` and identify any errors that arise. They are encouraged to troubleshoot and correct these errors to successfully execute the program.
+
+This exercise is designed to provide hands-on experience in defining and testing functions, which are fundamental concepts in programming with Python.

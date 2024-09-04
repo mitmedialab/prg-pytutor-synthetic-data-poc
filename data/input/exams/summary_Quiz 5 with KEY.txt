@@ -1,0 +1,35 @@
+## Summary of Quiz 5 for Introductory Programming Course
+
+### Purpose
+This quiz evaluates students' understanding of fundamental concepts related to functions in programming, specifically in Python. It aims to reinforce knowledge of function syntax, structure, and behavior.
+
+### Main Topics Covered
+
+1. **Function Arguments**: 
+   - The quiz tests the knowledge of how arguments are presented in functions, with answer options indicating correct syntax (parentheses).
+
+2. **Error Identification**: 
+   - Students are required to identify errors in code snippets and understand the implications of such errors on program execution.
+
+3. **Function Structure**: 
+   - Understanding the components of a function, particularly the distinction between function headers and parameters.
+
+4. **Function Behavior**: 
+   - Evaluation of how functions operate, including the examination of specific code behaviors through examples (e.g., the `nPrint` function).
+
+5. **Variable Scope**: 
+   - The quiz discusses the concept of variable scope, differentiating between local variables within functions and global variables outside of functions.
+
+6. **Function Header Composition**: 
+   - Students practice constructing appropriate function headers based on given tasks, including determining whether a function should return a value.
+
+7. **Correctness of Function Calls**: 
+   - Identification of incorrect function calls to highlight proper syntax and parameter passing in function usage.
+
+### Critical Details
+- The quiz encourages critical thinking regarding error correction in coding practices.
+- It introduces the concept of function argument types, such as positional and keyword arguments.
+- The distinction between local and global scope is a key understanding highlighted in the code examination.
+- Students are prompted to write function headers, fostering skills in defining functions based on specific tasks.
+
+This quiz is instrumental in solidifying foundational programming concepts and preparing students for more complex programming challenges.

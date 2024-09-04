@@ -1,0 +1,21 @@
+### Summary of In-Class Exercise for Introductory Programming Course
+
+#### General Purpose
+This in-class exercise is designed to reinforce the concepts covered in this week's lecture, specifically focusing on conditional statements and basic output in programming. The exercise challenges students to analyze code snippets involving number conditions and to practice writing their own conditional statements. 
+
+#### Main Topics Covered
+- **Understanding Output from Code**: Students are tasked with determining the output of specific code segments using different numerical inputs.
+- **Conditional Statements**: This includes the use of `if` and `else` statements to perform operations based on certain conditions.
+- **Variable Assignment**: Students are expected to manipulate variables to see the effect on output.
+
+#### Critical Details
+1. **Code Output Analysis**: 
+   - Students need to evaluate what output will be generated when the variable `number` is assigned different values (30, 352, 40, and 55). 
+   - Two distinct code structures (a) and (b) are presented for students to analyze how they handle even and odd conditions.
+
+2. **Hypothetical Scenario**: 
+   - The exercise asks students to write an `if` statement that conditionally modifies a variable (`pay`) based on another variable's value (`score`), enhancing their understanding of real-world applications of conditional logic.
+
+3. **Provided Values**: The exercise uses specific instances for `score` set to 100 and `pay` set to 1000 as a basis for the conditional statement, grounding the coding practice in realistic numerical values.
+
+Overall, this exercise aims to solidify students' understanding of conditional logic in programming by applying theoretical knowledge to practical scenarios.

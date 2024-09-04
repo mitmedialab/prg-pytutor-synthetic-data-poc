@@ -1,0 +1,18 @@
+## Summary of In-Class Exercise 7.5
+
+### General Purpose:
+The purpose of this exercise is to reinforce skills in file handling and string manipulation in Python by counting specific words in a text file.
+
+### Main Topics Covered:
+1. **File Creation**: Students are tasked with creating a text file named `review.txt` containing a specific review about finger paints.
+2. **Word Counting**: The main programming challenge is to write a script, `countWords.py`, that counts the occurrences of the word "well" in the `review.txt` file.
+3. **Hands-On Programming Practice**: The exercise offers practical experience in using Python for file input/output operations and basic string searching techniques.
+
+### Critical Details:
+- Students should create `review.txt` with exact content provided:
+  ```
+  I have a niece with a lot of allergies- both foods and environmental so I was concerned about these finger paints. He did very well with them. Being 18 months old, this was a great sensory activity. Her first picture was using the blue paint- her choice. Easy clean up for mom and dad as well.
+  ```
+- The `countWords.py` program should correctly implement the logic to open the file, read its contents, and count how many times the word "well" appears regardless of its context in the text.
+
+This exercise combines content creation and basic programming skills, helping students to practice and apply concepts taught in this week's lecture.

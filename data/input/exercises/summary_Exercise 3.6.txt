@@ -1,0 +1,38 @@
+### Summary of In-Class Exercise for Introductory Programming Course
+
+#### General Purpose:
+This in-class exercise aims to reinforce students' understanding of decision-making statements in programming, focusing on both two-way and multiple-way decision selections through practical programming tasks.
+
+#### Topics Covered:
+1. **Two-Way Decision Selection:**
+   - Application of a two-way decision statement to address the vehicle recall scenario.
+   - Utilization of Boolean expressions to define conditions for recalling vehicles based on model years.
+
+2. **Multiple-Way Decision Selection:**
+   - Implementation of a lottery program using multiple-way decision statements to determine award amounts based on user input.
+
+#### Critical Details:
+1. **Vehicle Recall Program:**
+   - **Input:** A model year entered by the user.
+   - **Output:** A message indicating if there is a recall ("Please recall!" for years 1995-1998 and 2004-2006; "No need for a recall" otherwise).
+   - **Condition Representation:** Use a Boolean expression to check if the model year falls within the specified ranges.
+   - **Control Structure Used:** Two-way decision statement.
+
+2. **Lottery System Program:**
+   - **Input:** Two numbers entered by the user (guess number and lottery number).
+   - **Output:** An award amount based on the distance between the guess number and the lottery number.
+   - **Award Rules:**
+     - $1000 for an exact match.
+     - $500 if the numbers are within a distance of 2.
+     - $100 if the distance is less than 6.
+     - No award in other cases.
+   - **Condition Representation:** Use a Boolean expression for the $500 award condition.
+   - **Control Structure Used:** Multiple-way decision statement.
+
+#### Exercise Steps:
+- Analyze each system's inputs and outputs.
+- Define conditions using Boolean logic for programming.
+- Outline the necessary steps required to achieve the desired output based on input.
+- Write the actual code to implement both scenarios.
+
+This exercise helps students practice logical thinking and programming skills by combining theoretical knowledge with practical application.

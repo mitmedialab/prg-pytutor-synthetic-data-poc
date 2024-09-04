@@ -1,0 +1,34 @@
+### Summary of In-Class Exercise 2.2 for Introductory Programming Course
+
+**Purpose:**  
+This exercise aims to reinforce key concepts discussed in this week's lecture, focusing on variable assignment, basic arithmetic operations in Python, and understanding mathematical computations through programming.
+
+**Main Topics Covered:**
+
+1. **Variable Assignment:**
+   - Students examine the effect of variable assignment and reassignment. They will determine the final values of `x` and `y` after executing the provided statements.
+   - Example: 
+     - Initial assignment: `x = 15`, then `y = x`, followed by `x = 22`.
+     - Discussion on the final values of `x` and `y`.
+
+2. **Using Python as a Calculator:**
+   - Students practice performing calculations using the Python interpreter.
+   - Task: Calculate the volume of a sphere with radius 5 using the formula **V = 4/3 π r³**.
+
+3. **Expression Evaluation:**
+   - Students evaluate various expressions to understand operator functions:
+     - **Standard Division:** `42 / 5`
+     - **Floor Division:** `42 // 5`
+     - **Modulus Operations:** `42 % 5` and `40 % 5`
+     - **Exponentiation:** `5 ** 2`
+   
+4. **Mathematical Series:**
+   - Introduction to the concept of harmonic numbers.
+   - Students learn to write an expression that calculates the 8th harmonic number based on the definition: **H(N) = 1 + 1/2 + 1/3 + ... + 1/N**, assuming a variable `N` is already defined.
+
+**Critical Details:**
+- Understanding of variable scoping and reassignment is essential for effective programming.
+- Familiarity with mathematical operations and how Python interprets these expressions prepares students for more complex programming tasks.
+- The exercise integrates programming with mathematical concepts, enhancing logical thinking and problem-solving skills.
+
+Overall, Exercise 2.2 serves as a practical application of the theoretical concepts discussed in the week's lecture, enabling students to gain hands-on experience with Python programming fundamentals.

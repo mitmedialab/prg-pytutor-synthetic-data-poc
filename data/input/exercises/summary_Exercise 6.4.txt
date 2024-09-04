@@ -1,0 +1,34 @@
+### Summary of In-Class Exercise 6.4
+
+**Objectives:**  
+This exercise aligns with objectives related to understanding function definitions and calls in programming, particularly in the context of the week’s lecture.
+
+**Topics Covered:**  
+1. **Function Definition and Utilization:**  
+   - The exercise begins with the analysis of a given function `nPrint(message, n)`, which prints a specified message `n` times. 
+   - Students are tasked with predicting the output of a function call `nPrint(n=4, message='a')`, where they must analyze how parameters are passed and processed within the function.
+
+2. **Function Call Validity:**  
+   - The exercise presents another function `f(p1, p2, p3)` that includes a syntax error in its return statement. 
+   - Students are required to evaluate two function call examples (`a` and `b`) to determine their correctness based on the defined parameters.
+
+**Key Questions:**
+1. The expected output for the function `nPrint(n=4, message='a')` includes the options: 
+   - A. aaaaa  
+   - B. aaaa  
+   - C. aaa  
+   - D. invalid call  
+   - E. infinite loop  
+   
+   (The correct output, given the logic, is B: aaaa, since 'a' is printed 4 times.)
+
+2. For the function calls concerning `f`, students assess:
+   - a) If `f(30, p2 = 4, 10)` is valid based on the parameter arrangement.
+   - b) If `f(30, p2 = 4, p3 = 10)` appropriately utilizes keyword arguments for clarity and correctness.
+
+**Critical Details:**
+- Understanding function outputs relies on control structures and iterations.
+- Syntax accuracy and parameter passing conventions are pivotal in ensuring function calls are valid and successful.
+- Recognizing errors in function definitions leads to better debugging skills in programming.
+
+This exercise reinforces foundational programming concepts, encourages critical thinking in assessment of outputs and function validity, and highlights common pitfalls related to function syntax and usage.

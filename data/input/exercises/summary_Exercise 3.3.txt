@@ -1,0 +1,19 @@
+### Summary of In-Class Exercise for Introductory Programming Course
+
+**Objective:** The exercise aims to reinforce students' understanding of conditional statements and their structure in programming, specifically focusing on if-elif-else constructs.
+
+#### Topics Covered:
+1. **Conditional Statements:**
+   - Students are tasked with predicting the output of a program based on a given input (temperature), applying knowledge of conditional logic.
+
+2. **Code Evaluation:**
+   - The second question encourages students to analyze a code snippet for errors and understand logical ordering in conditional statements to assign grades based on a score.
+
+#### Key Details:
+- **Exercise 3.3:**
+  - The first part involves determining what the code outputs based on the value of the `temperature` variable. Students must select from given options (A, B, C, D).
+  
+- **Code Debugging:**
+  - The second part requires students to identify issues within a grading program, prompting them to recognize that the current structure will not work as intended due to incorrect grade assignment logic.
+
+This exercise emphasizes critical thinking in programming syntax, flow control through conditional logic, and diagnosing code inefficiencies or errors.

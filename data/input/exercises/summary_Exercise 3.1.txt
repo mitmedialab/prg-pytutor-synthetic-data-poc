@@ -1,0 +1,21 @@
+### Summary of In-Class Exercise 3.1
+
+#### Objective:
+The purpose of this exercise is to apply basic programming concepts by taking two numbers as input, calculating their sum, and evaluating various conditions related to that sum.
+
+#### Topics Covered:
+1. **Input Handling**: Students will learn how to gather user input through the `input()` function and convert it to integers using `int()`.
+2. **Arithmetic Operations**: The exercise involves simple arithmetic—specifically, calculating the sum of two numbers.
+3. **Conditional Statements**: Students will utilize conditional logic to check:
+   - If the sum is greater than 5
+   - If the sum equals 5
+   - If the sum is less than 5
+   - If the sum is odd
+4. **Printing Output**: Students will practice displaying results using the `print()` function.
+
+#### Critical Details:
+- Students must complete the provided code by filling in specific blanks to implement the necessary calculations and evaluations.
+- The logical checks require a fundamental understanding of operators such as `>`, `<`, `==`, and the modulus operator to determine odd/even status.
+- This exercise reinforces the students' understanding of control flow in programming through the evaluation of conditions based on user input. 
+
+This aligns with the foundational skills expected from an introductory programming course, fostering both practical coding abilities and critical thinking in problem-solving.

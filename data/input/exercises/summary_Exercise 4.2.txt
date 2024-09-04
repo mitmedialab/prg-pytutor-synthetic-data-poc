@@ -1,0 +1,18 @@
+### Summary of In-Class Exercise 4.2
+
+**Objective:** The exercise aims to reinforce students' understanding of character representations, Unicode values, and the use of built-in functions in programming.
+
+**Main Topics Covered:**
+1. **Character Representation:**
+   - Students are tasked with identifying the correct expression of the character '4' among given options (integer, single quote character, and double quote string).
+
+2. **Unicode Values:**
+   - The exercise tests knowledge on how Unicode values are assigned, specifically requiring students to determine the Unicode value for the character 'c' based on the provided value for 'a'.
+
+3. **Built-in Functions:**
+   - Practical application of the `ord()` and `chr()` functions:
+     - Students calculate the difference between the ordinal values of 'z' and 'a', assessing their understanding of character encoding.
+     - Inquiry about the output of `chr(4)` prompts students to consider how character encoding functions behave.
+
+**Critical Details:**
+- The exercise challenges students' knowledge of basic character encoding as well as their ability to apply functions to manipulate and analyze character values programmatically. The questions require precise answers and encourage logical reasoning.

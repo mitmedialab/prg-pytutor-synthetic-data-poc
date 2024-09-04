@@ -1,0 +1,49 @@
+# Course Summary: CIS 3260 Introduction to Programming - Online (Fall 2023)
+
+## General Course Information
+- **Instructor:** Dr. Yuan Long
+- **Email:** ylong4@gsu.edu
+- **Office Hours:** Wednesday 1:30 am - 3:00 pm (or by appointment, including virtual meetings)
+- **Class Schedule:** Tuesdays, 7:15 pm - 9:45 pm via Zoom
+- **Prerequisite:** CIS 2010 with a grade of C or higher.
+
+## Course Objectives
+Students will learn to:
+1. Create, debug, execute, and test Python applications effectively.
+2. Apply Object-Oriented Programming (OOP) concepts, like encapsulation, inheritance, and polymorphism.
+
+## Course Structure
+- **Teaching Format:** Synchronous online lectures combining mini-lectures with interactive exercises.
+- **Student Groups:** Fixed groups of 2-3 students will collaborate using pair programming techniques for projects and assignments.
+
+## Grading Breakdown
+- **Exams (1 Midterm, 1 Final):** 55% of total grade (25% Midterm, 30% Final)
+- **Quizzes:** 10% (5 quizzes, lowest dropped)
+- **Individual Assignments:** 14% (8 assignments, lowest dropped)
+- **Group Assignments:** 7% (4% for two assignments, 8% for one project)
+- **Career Advancement Component:** 3%
+- **Total Points:** 100%
+
+## Important Academic Policies
+- **Attendance:** Mandatory for all classes, with one unexcused absence allowed under certain conditions. More than one absence may lead to being dropped from the course.
+- **Late Submissions:** Accepted within 24 hours after the due date with a 10% penalty.
+- **Academic Integrity:** Strictly enforced, with serious consequences for violations.
+- **Participation in Q&A sessions:** Recommended for skill enhancement (not graded).
+
+## Course Resources
+- **Main Textbook:** "Introduction to Python Programming and Data Structures" by Y. Daniel Liang.
+- **Additional Reading:** Selected chapters from "Think Python" and "Learning Python."
+- **Online Platforms:** Coding Rooms and iCollege for supplemental materials and assignments.
+
+## Tentative Course Schedule Highlights
+- **Weeks 1-2:** Introduction to programming concepts and the Python language. Assignments begin.
+- **Week 6:** Midterm exam covering Chapters 1-3.
+- **Weeks 7-12:** Cover advanced topics such as loops, functions, lists, and OOP.
+- **Week 15:** Review session and Group Project submission.
+- **Week 16:** Final exam covering Chapters 4-9.
+
+## Miscellaneous
+- Changes to the schedule or course content may occur with prior notice.
+- All students must maintain communication through their university email and comply with the defined subject header for messages.
+
+This summary encapsulates the essential components of the CIS 3260 course, enabling prospective students to understand its structure, objectives, and expectations.

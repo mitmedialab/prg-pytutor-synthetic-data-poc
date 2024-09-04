@@ -1,0 +1,27 @@
+**Summary of In-Class Exercise 6.2 - Introductory Programming Course**
+
+**General Purpose:**
+The purpose of Exercise 6.2 is to reinforce students' understanding of function definitions, headers, parameters, and return values in programming, aligning with the objectives of this week's lecture.
+
+**Main Topics Covered:**
+
+1. **Function Header Components:**
+   - Students are quizzed on what constitutes the header of a function, with options provided including the function name and parameter list.
+
+2. **Function Characteristics:**
+   - Definition of functions is explored, specifically regarding the number of parameters a function can have and the necessity of return statements.
+
+3. **Function Definition Practice:**
+   - An exercise requires students to write a function definition that processes an integer parameter and returns its double.
+
+4. **Function Header Creation:**
+   - Students are tasked with creating headers for various functions, focusing on practical applications:
+     - **Sales Commission Calculation:** Taking sales amount and commission rate as parameters.
+     - **Calendar Printing:** Inputting month and year to produce a calendar.
+     - **Square Root Calculation:** Function for computing a square root.
+
+**Critical Details:**
+- Understanding the difference between a function's name, parameters, and return value is emphasized.
+- Practical exercises test both theoretical knowledge and coding skills relevant to function creation and manipulation in programming. 
+
+This exercise facilitates hands-on learning about key programming concepts that are foundational for developing functional code.

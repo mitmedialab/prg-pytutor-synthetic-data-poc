@@ -1,0 +1,29 @@
+### Summary of In-Class Exercise 7.2 on Lists in an Introductory Programming Course
+
+**General Purpose:**
+The exercise aims to reinforce the students' understanding of list indexing, list operations, and basic list manipulation in the context of Python programming.
+
+**Main Topics Covered:**
+
+1. **Negative Indexing:**
+   - The students are prompted to determine the output of accessing an element using a negative index in a list. In this case, they analyze `list1[-1]` to find the last item of the list.
+
+2. **List Multiplication:**
+   - The second question requires students to understand what happens when a list is multiplied by an integer in Python, specifically how it concatenates the list to itself.
+
+3. **Accessing List Elements:**
+   - Students practice retrieving specific elements from a list by writing statements to display the first three elements of a predefined list.
+
+4. **Checking for Value in List:**
+   - The exercise also focuses on using a statement to check for the existence of a specific value within a list.
+
+5. **Updating a List:**
+   - Finally, students learn how to add elements to a list and display the updated list contents.
+
+**Critical Details:**
+- Understanding indexing (both positive and negative).
+- The mechanics of list multiplication and its resulting structure.
+- Practical statements for accessing and modifying lists.
+- Using the `in` keyword to check for the presence of an item in a list.
+
+This exercise promotes hands-on practice of these concepts, helping students internalize foundational programming skills with lists in Python.

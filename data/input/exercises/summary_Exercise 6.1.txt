@@ -1,0 +1,20 @@
+## Summary of In-Class Exercise 6.1 - Introductory Programming Course
+
+### General Purpose:
+The objective of Exercise 6.1 is to reinforce students' understanding of function arguments, syntax correctness in Python, and the utility of creating functions in programming.
+
+### Main Topics Covered:
+1. **Function Arguments**: Students are quizzed on correct terminology for the syntax used in function arguments, specifically identifying that arguments appear within parentheses (Question 1).
+  
+2. **Syntax Errors**: An analysis of a sample program is provided to assess whether it contains syntax errors, focusing on the correct use of the `math` module and function calls in Python (Question 2).
+
+3. **Advantages of Functions**: Students are prompted to consider the benefits of using functions, encouraging critical thinking about code organization, reusability, and clarity (Question 3a).
+
+4. **Creating Custom Functions**: Students reflect on scenarios in which they might choose to develop their own functions, reinforcing the concept of function creation and its relevance in programming practices (Question 3b).
+
+### Critical Details:
+- Understanding the syntax for function arguments is fundamental to writing valid code.
+- Syntax errors can significantly affect program execution, and recognizing these errors is essential for debugging.
+- Functions promote better programming practices, such as code reuse and simplification, making them a valuable tool for developers. 
+
+This exercise aims to consolidate key programming concepts introduced in this week's lecture and enhance students' problem-solving skills in programming contexts.

@@ -1,0 +1,24 @@
+### Summary of Exercise 4.1
+
+**Objective**: This in-class exercise aims to reinforce the students' understanding of basic programming concepts and mathematical functions in Python.
+
+**Topics Covered**:
+
+1. **Exponentiation**: 
+   - Students are asked to determine if the expression `pow(a, b)` is equivalent to `a ** b`, highlighting the concept of different methods for exponentiation in Python.
+
+2. **Function Evaluation**:
+   - A series of mathematical functions are presented for evaluation, emphasizing the use of Python's `math` module:
+     - `math.sqrt(4)` – Calculates the square root.
+     - `math.sin(2 * math.pi)` – Computes the sine of an angle.
+     - `min(2, 2, 1)` – Finds the minimum value.
+     - `math.exp(1)` – Evaluates Euler's number raised to the power of 1.
+     - `max(2, 3, 4)` – Determines the maximum value.
+     - `abs(-2.5)` – Returns the absolute value.
+     - `math.fabs(2.5)` – Returns the absolute value as a float.
+
+3. **Area Calculation of a Hexagon**:
+   - Students are asked to apply a formula for calculating the area of a hexagon, using the side length (s = 100). This introduces the concept of assigning results to variables in Python.
+   - Formula provided: Area = \( \frac{6 \cdot s^2}{4 \cdot \tan(\frac{\pi}{6})} \)
+
+The exercise is designed to enhance students' practical skills in function usage, mathematical computations, and variable assignment in Python programming.

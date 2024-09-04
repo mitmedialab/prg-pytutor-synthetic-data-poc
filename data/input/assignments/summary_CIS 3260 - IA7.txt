@@ -1,0 +1,34 @@
+### Summary of Assignment 7 - CIS 3260: Introduction to Programming
+
+#### General Purpose:
+The assignment aims to develop students' understanding of fundamental programming concepts through practical implementation in Python. It focuses on function definition, error handling, and user input/output, serving as a comprehensive exercise in applying programming skills to real-world problems.
+
+#### Main Topics Covered:
+
+1. **Function Definition and Utilization**:
+   - Students are tasked to create functions to calculate the number of days in a given year and convert temperatures between Celsius and Fahrenheit. This highlights the importance of function headers and bodies, as well as calling functions in Python.
+   
+2. **Control Structures**:
+   - The assignment incorporates the use of loops (for loops) for iterating over a range of years, reinforcing the concept of control flow in programming.
+
+3. **Error Handling and Troubleshooting**:
+   - Students are instructed to document errors encountered during programming, identifying if they were syntax, run-time, or logical errors. This teaches troubleshooting skills and the significance of debugging in software development.
+
+4. **Input/Output and User Interaction**:
+   - The programs require user input and display outputs in a formatted manner. This emphasizes the importance of user interaction and data presentation in programming.
+
+5. **System Analysis and Design**:
+   - For the temperature conversion program, students must analyze inputs and outputs, designing a program flow that effectively handles the conversion logic based on user choices.
+
+#### Critical Details:
+- The assignment consists of two main programming tasks:
+  1. **IA7Q1.py**: A program to display the number of days in specified years. It requires students to write and structure a function and utilize loops correctly.
+  2. **IA7Q2Covert.py and IA7Q2Test.py**: Two interconnected programs that define functions for temperature conversion and utilize them effectively to interact with the user.
+
+- Each program must follow specific naming conventions and include appropriate comments for readability, promoting good coding practice.
+
+- Students must also submit code and documentation reinforcing the significance of organized code structure and comment usage.
+
+- Additional objectives cover a range of programming skills including Boolean expressions, string manipulation, control flow, and function handling, providing a broad foundation in introductory programming.
+
+In summary, this assignment encapsulates key programming principles and practices, encouraging students to engage with and apply their knowledge in practical scenarios while developing important problem-solving and coding skills.

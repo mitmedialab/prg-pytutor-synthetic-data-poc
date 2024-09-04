@@ -1,0 +1,24 @@
+### Summary of Exercise 5.3 
+
+**Objective:** 
+The goal of Exercise 5.3 is to compute and display the tuition fees over the next ten years, starting from a base tuition of $10,000, which increases by 5% each year. This exercise requires the use of a while loop in programming.
+
+**Main Topics Covered:**
+
+1. **Tuition Calculation:**
+   - Understanding the concept of a tuition increase based on a percentage.
+   - Application of a while loop to iterate through each year and calculate tuition.
+
+2. **System Design:**
+   - Listing the necessary steps from input (initial tuition and increase rate) to output (final tuition values for each year).
+   - Defining the logic to be used in the while loop to ensure accurate calculations.
+
+3. **Implementation:**
+   - Writing the code that will execute the designed algorithm, demonstrating proficiency in basic programming constructs.
+
+**Critical Details:**
+- The exercise emphasizes practical skills in looping mechanisms and mathematical operations within programming.
+- Students are expected to fill in the table provided with calculated tuition values for each year, reinforcing the application of loops and incrementing values.
+- It serves as a foundation for topics such as iteration, variable updating, and logical reasoning in programming. 
+
+This exercise sets the stage for more advanced concepts and problem-solving in subsequent lessons by solidifying understanding of loops and basic mathematical operations in programming.

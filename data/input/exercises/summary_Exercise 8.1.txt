@@ -1,0 +1,22 @@
+**Summary of In-Class Exercise for Introductory Programming Course**
+
+**General Purpose:**  
+This in-class exercise aims to reinforce understanding of list indexing and iteration through multidimensional lists (arrays) in programming. It supports the learning objectives of the week, which focus on accessing and manipulating data stored in nested lists.
+
+**Main Topics Covered:**  
+1. **List Indexing:** 
+   - The first question evaluates students' ability to access elements in a 2D list using indices.
+2. **Nested Loops and Iteration:**
+   - The second question emphasizes the use of loops to traverse a 2D list to find the maximum value.
+
+**Critical Details:**
+- **Exercise 8.1 Questions:**
+  1. **Question 1**: Involves accessing the first element of the first sublist in a 2D list `m`. Students must identify that `m[0][0]` returns the value `1`.
+  2. **Question 2**: Requires students to determine the maximum value in a 2D list using nested for loops. It checks each value against a variable initialized with the first element, updating it if a larger value is found.
+
+**Expected Outputs:**
+- The correct answer for Question 1 is **A. 1**.
+- The correct answer for Question 2 has several options and requires calculation; the maximum value encountered in the traversal is **E. 33**.
+
+**Conclusion:**  
+This exercise solidifies foundational skills in programming related to list manipulation and reinforces logical thinking necessary for iterative processes.

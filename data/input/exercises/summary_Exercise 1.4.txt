@@ -1,0 +1,20 @@
+## Summary of In-Class Exercise 1.4
+
+**Objective**: The exercise aims to reinforce understanding of error identification and correction in Python programming.
+
+**Tasks**: 
+1. Participants are required to create a Python program named `test.py`, containing five specific lines of code.
+2. Students will run their program and then address three questions related to error detection.
+
+**Main Topics Covered**:
+- **Error Identification**: Students will need to determine how many errors are present in the provided code and classify their types.
+- **Types of Errors**:
+   - Syntax errors (e.g., incorrect function names)
+   - Runtime errors (e.g., division by zero)
+- **Error Correction**: Participants will learn how to fix each identified error.
+
+**Critical Details**:
+- The five lines of code include a mix of print statements and invalid operations that will trigger various errors.
+- This exercise encourages hands-on debugging and improves problem-solving skills in Python.
+
+By completing this exercise, students will strengthen their ability to read and troubleshoot code effectively.

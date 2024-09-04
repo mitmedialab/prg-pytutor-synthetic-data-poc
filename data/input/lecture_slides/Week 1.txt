@@ -1,0 +1,49 @@
+### Summary of Class 1: Introductory Programming Course
+
+#### Objectives
+1. **Conceptual Understanding**: Explain computer hardware, programs, and operating systems.
+2. **Historical Context**: Describe the history of Python.
+3. **Basic Syntax**: Introduce the basic syntax of a Python program.
+4. **Practical Application**: Write and run a simple Python program.
+
+---
+
+#### Key Topics Covered
+
+1. **Understanding Computers**
+   - **Hardware**: Refers to physical components such as the CPU, RAM, and peripherals.
+   - **Software**: Instructions (programs) that run on hardware, categorized as applications and operating systems. 
+
+2. **Operating Systems (OS)**
+   - Defined as a program that manages computer activities and must be installed for application programs to run.
+   - Diagrammatic explanation of the hierarchy: User → Application Programs → OS → Hardware.
+
+3. **Programming Languages**
+   - **Machine Language**: Basic binary instructions (machine code).
+   - **High-level Language**: More human-readable languages (e.g., Python, with examples like `14 + 56`).
+
+4. **Translation of Code**
+   - Different methods for translating high-level code to machine code:
+     - **Compilers**: Convert the entire program at once (e.g., Java).
+     - **Interpreters**: Translate and execute line by line (e.g., Python).
+
+5. **Python's Versatility**
+   - General-purpose language used in diverse sectors (e.g., Google, NASA).
+   - Object-oriented programming features for reusable software design.
+
+6. **History of Python**
+   - Created by Guido van Rossum in 1990 and remains open-source.
+   - Comparison between Python 2 and Python 3.
+
+---
+
+#### Practical Exercises
+- Students will download Python, use its integrated development environment (IDLE), and write simple scripts to perform tasks such as printing messages and computing expressions.
+- Exercises include:
+   - Running simple print commands in interactive and script modes.
+   - Creating a program named "ComputeExp" for arithmetic expressions.
+
+---
+
+#### Conclusion
+The first class lays the foundational understanding of computing, programming languages, and practical Python skills, enabling students to start their programming journey.

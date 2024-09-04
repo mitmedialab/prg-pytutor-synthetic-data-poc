@@ -1,0 +1,20 @@
+### Summary of In-Class Exercise 1.1
+
+#### General Purpose:
+The in-class exercise aims to reinforce students' understanding of key concepts related to computer systems, particularly the distinction between hardware and software, and familiarize them with the basic components of an operating system and programs.
+
+#### Main Topics Covered:
+1. **Definitions:**
+   - **Hardware vs. Software:** Students are prompted to differentiate between the physical components of a computer (hardware) and the instructions that govern computer operations (software).
+2. **Operating Systems:**
+   - Identifying examples of software that function as operating systems, with "Windows XP" being the correct choice among given options.
+3. **Programs and Software:**
+   - Understanding that software includes various programs, which act as the instructions the computer follows.
+4. **Function of Operating Systems:**
+   - Exploring the role of an operating system in managing and controlling computer activities, further distinguishing it from programming languages and tools.
+
+#### Critical Details:
+- The exercise emphasizes the role of software in controlling robots, using food delivery robots as a context to illustrate practical applications of programming.
+- Students are tasked to think critically about what software is necessary for controlling such robots, particularly focusing on features like navigation systems that direct the robot's movements.
+
+This exercise not only reinforces theoretical knowledge but also encourages students to apply their understanding to real-world technology scenarios, integrating programming concepts with practical use cases such as automation and robotics.

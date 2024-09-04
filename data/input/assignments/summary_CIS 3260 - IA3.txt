@@ -1,0 +1,32 @@
+### Summary of CIS 3260 – Introduction to Programming Individual Assignment 3
+
+**Purpose of the Document:**
+The assignment is designed to assess students' understanding and application of fundamental programming concepts in Python. It includes writing Python programs that implement decision-making logic and error handling, while also emphasizing the importance of programming style and documentation.
+
+**Main Topics Covered:**
+
+1. **Input and Output Handling:**
+   - Students are tasked with writing programs that accept user input and produce output based on specified conditions, reinforcing the concept of interaction with users through input functions.
+
+2. **Decision Structures:**
+   - The assignment involves implementing single and multiple decision selection statements (if-else, one-way, and two-way) to affect program flow based on logical conditions. This helps students learn how to control the execution of code based on different circumstances.
+
+3. **Error Identification and Resolution:**
+   - Students are required to document errors encountered during programming, describing the type of error (syntax, runtime, or logical), how they resolved it, and the time taken to fix the issue. This cultivates troubleshooting skills and the understanding that errors are a normal part of programming.
+
+4. **System Analysis and Design:**
+   - Each problem includes sections for system analysis and design where students need to analyze inputs and outputs, describe program conditions in plain English, and outline the logical steps necessary to achieve the desired outputs. This encourages systematic thinking in software development.
+
+5. **Documentation and Code Style:**
+   - Emphasis is placed on adding comments to code for readability and clarity, promoting good programming practices. Students must document their programs properly and use specific naming conventions for files, which underscores the importance of organization in coding.
+
+6. **Programming Logic:**
+   - The assignments teach logical reasoning through exercises that require students to translate conditions into Boolean expressions and to think critically about how to implement required functionality in their code.
+
+### Critical Details for Understanding:
+
+- **Sample Problems:** The assignment includes specific tasks with expected outputs, guiding students in practical implementation and enhancing their problem-solving skills.
+- **Error Logs:** Students maintain a log of errors which fosters a growth mindset, as they learn from challenges encountered during coding.
+- **Structured Submission:** Clear instructions on file naming and submission format ensure students learn to follow conventions typically found in professional programming environments.
+
+This assignment integrates various essential programming concepts, preparing students for more complex programming challenges by grounding their understanding in practical exercises and structured problem-solving methods.

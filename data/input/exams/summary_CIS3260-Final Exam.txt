@@ -1,0 +1,45 @@
+### Summary of CIS 3260 – Final Exam Content
+
+The CIS 3260 Final Exam is designed to assess students' understanding of key programming concepts in Python, focusing on foundational programming skills and problem-solving abilities. Here’s an organized summary of the main topics covered:
+
+#### Part 1 – Multiple Choice
+- **Understanding Functions and Return Statements**
+  - Students are tested on the purpose of `return` statements and variable scopes (`local vs. global`).
+- **Loop Mechanics**
+  - Questions include evaluating the correct syntax and logic for loops, especially in calculating series like `1/2 + 2/3 + ... + 99/100`.
+- **String Manipulation**
+  - An example focusing on the use of the `.split()` method and string properties.
+- **Data Structures**
+  - Accessing elements in lists and understanding list position/indexing.
+- **Function Definitions**
+  - Recognizing valid function headers and expected functionality.
+
+#### Exam Questions
+- **Code Evaluation**
+  - Students analyze given code snippets to predict outputs, reinforcing understanding of loops, variable reassignment, and flow control.
+- **String and Character Properties**
+  - Evaluating character encoding (Unicode) and string operations.
+
+#### Part 2 – Fill in the Blanks
+- **String Functions and Conditions**
+  - Tests knowledge on specific string methods (e.g., `.isdigit()`, `.count()`) and list operations (e.g., `len()`, `max()`).
+- **Variable Manipulation**
+  - Students may need to demonstrate manipulating list data structures and checking for values within them.
+
+#### Software Development – Part 3
+1. **Digit Counting Program**
+   - Develop a program to count digits in a string and analyze inputs and outputs, emphasizing user interaction and string manipulation.
+2. **Leap Year Calculation**
+   - Using logical conditions to determine leap years within a specified range, highlighting control flow and boolean expressions alongside understanding years and iterations.
+3. **Stock Price Analysis Tool**
+   - Students will develop a program to handle user input and compute averages and maximums. This assesses their ability to use lists and perform basic statistical operations on data.
+
+### Learning Objectives:
+- **Functionality and Problem-Solving in Python**
+  - Students will learn to use Python functions, lists, and control structures to solve practical problems.
+- **Code Analysis and Debugging**
+  - The exam tasks students to debug codes and understand the logical flow of programming constructs.
+- **String and List Manipulation**
+  - A focus on handling string methods and list operations reflects real-world programming tasks.
+
+Overall, the exam incorporates practical programming tasks with theoretical questioning, promoting a comprehensive understanding of Python fundamentals essential for beginners.

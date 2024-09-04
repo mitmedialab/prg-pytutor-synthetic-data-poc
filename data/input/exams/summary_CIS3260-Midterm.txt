@@ -1,0 +1,43 @@
+## Summary of CIS 3260 - Midterm Exam Content
+
+### General Purpose
+The midterm exam for the CIS 3260 introductory programming course is designed to assess students' understanding of fundamental programming concepts, particularly in Python. It covers binary systems, programming languages, logical expressions, control structures, and basic arithmetic operations.
+
+### Main Topics Covered
+
+1. **Binary Representation**
+   - Understanding why computers use binary (zeros and ones).
+   - Knowledge of how binary relates to number representation and digital logic.
+
+2. **Programming Languages**
+   - Differentiation between high-level languages, assembly language, and machine language.
+   - Understanding the differences between Python 2 and Python 3 regarding compatibility and code syntax.
+
+3. **Syntax and Error Types**
+   - Recognition of correct Python syntax for print statements.
+   - Identification of programming errors, such as logic mistakes versus runtime errors.
+
+4. **Control Structures**
+   - Use of conditional statements (if, elif, else) to control the flow of a program.
+   - Application of logical and comparison operators to evaluate conditions.
+
+5. **Boolean Logic**
+   - Understanding and constructing boolean expressions, particularly in conditions.
+   - Identification of boolean operators and case sensitivity in Python.
+
+6. **Basic Operations**
+   - Execution of arithmetic operations, including addition, division, modulo, and exponentiation.
+   - Understanding how to manipulate and compare variables within expressions.
+
+### Critical Details
+
+- **Multiple Choice Questions:** Assess knowledge of foundational concepts and correct syntax in Python.
+  
+- **Expression Evaluation:** Students need to predict outputs of given Python code snippets and fill in the correct logical values based on provided expressions.
+
+- **System Analysis and Program Development Tasks:**
+  - Exercises require students to design and write simple programs that apply logic for user inputs, such as currency conversion and character-based student classifications.
+  - Problem-solving skills are tested by asking students to outline procedures for obtaining program outputs from user inputs and constructing appropriate boolean expressions for decision-making.
+
+### Conclusion
+The midterm exam encapsulates essential introductory programming principles and assesses both theoretical understanding and practical coding skills in Python. It encourages students to think critically about programming logic, correct syntax classification, and the structure of control statements.

@@ -1,0 +1,18 @@
+### Summary of In-Class Exercise 5.2
+
+**Objective:** The exercise aims to reinforce the concept of control structures in programming by using loops and conditionals.
+
+**Key Topics Covered:**
+1. **Input Handling**: Students will practice taking multiple inputs using the `input()` function.
+2. **Variables**: Understanding the use of variables to store values (e.g., `number` and `max`).
+3. **While Loop**: Utilizing a loop to repeatedly execute code as long as a condition is true.
+4. **Conditional Statements**: Employing an `if` statement to compare values and determine the maximum number.
+5. **Output**: Using the `print()` function to display results based on the program’s logic.
+
+**Critical Details:**
+- The code snippet initializes `max` with the first input number.
+- It utilizes a while loop to continue accepting input until `0` is entered, at which point the loop terminates.
+- Inside the loop, it updates the `max` variable to keep track of the largest number entered by the user.
+- The results printed at the end include the maximum value found (`max`) and the last entered number (`number`).
+
+This exercise is designed to enhance students' understanding of basic programming constructs and their practical applications.

@@ -1,0 +1,19 @@
+## Summary of In-Class Exercise for Introductory Programming Course
+
+### General Purpose
+The exercise aims to reinforce concepts from this week's lecture on function calls and parameters in programming. It provides practical applications to solidify understanding through problem-solving exercises.
+
+### Main Topics Covered
+1. **Function Invocation**: Understand how to call functions with parameters and the expected outputs.
+2. **Variable Assignment**: Practice assigning the results of function calls to new variables.
+3. **Control Flow**: Examine a function that uses a loop to repeat an action based on a parameter.
+4. **Error Identification**: Analyze code for potential mistakes and logical errors.
+
+### Critical Details
+- **Exercise 6.3**:
+    - **Question 1**: Involves a function `add` which sums two integers. Students must construct a statement to compute the total sales from two previously defined variables.
+    - **Question 2**: Asks students to invoke a function `print_todays_date`, which takes no parameters and has no return value.
+    - **Question 3**: Analyzes the output of the function `nPrint`, which prints a message a specified number of times. Students need to deduce the correct output based on the call `nPrint('a', 4)`.
+    - **Question 4**: Requires students to examine a provided function for errors, specifically looking for issues in the scope of variables or uninitialized variables.
+
+This exercise encapsulates vital programming practices, including comprehension of function behavior, variable management, and identifying code flaws, aligning with the objectives set out in the week's lecture.

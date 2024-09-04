@@ -1,0 +1,23 @@
+## Summary of In-Class Exercise 2.5 for Introductory Programming Course
+
+### Objective:
+The exercise aims to apply the software development process to a problem involving financial calculations.
+
+### Topics Covered:
+1. **System Analysis**:
+   - Understanding the problem: The task is to calculate the future value of an investment based on input parameters.
+   - Identifying inputs: Investment amount, annual interest rate, and duration in years.
+
+2. **System Design**:
+   - Defining the formula used for the calculation:
+     - **Formula**: futureInvestmentValue = investmentAmount × (1 + monthlyInterestRate) ^ numberOfMonths
+   - Breakdown of components:
+     - Conversion of annual interest rate to monthly interest rate.
+     - Calculation of total months from the number of years.
+   - Planning the program structure to accept inputs, perform calculations, and display results.
+
+### Key Example:
+- Input: Investment amount = $1000, annual interest rate = 4.25%, years = 1.
+- Output: Future investment value = $1043.33.
+
+This exercise enhances understanding of crucial programming steps including system analysis, design principles, and applying mathematical formulas in code.

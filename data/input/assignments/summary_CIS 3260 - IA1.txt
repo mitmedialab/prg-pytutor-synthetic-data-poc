@@ -1,0 +1,29 @@
+# Summary of CIS 3260 – Introduction to Programming Individual Assignment 1
+
+## Purpose:
+The assignment aims to introduce fundamental programming concepts using Python, focusing on writing simple programs, debugging, and understanding types of programming errors. Students are tasked with implementing code that includes user interaction, mathematical computations, and error analysis.
+
+## Main Topics Covered:
+
+1. **Basic Output**:
+   - Write a program to display specific string messages.
+   - Focuses on understanding simple output functions and program structure.
+
+2. **Mathematical Expressions**:
+   - Create a program to compute and display the result of an algebraic expression.
+   - Teaches the use of mathematical operators and the importance of syntax in Python programming.
+
+3. **User Input and Variable Manipulation**:
+   - Develop a program to calculate average velocity using user-provided data (start distance, end distance, and time).
+   - Introduces concepts such as input functions, variable assignment, and basic arithmetic operations.
+
+4. **Error Identification and Resolution**:
+   - Each programming task requires students to document programming errors encountered, categorize them as syntax, runtime, or logical errors, and explain how they were resolved.
+   - Emphasizes the importance of problem-solving in programming and familiarizes students with debugging techniques.
+
+## Critical Details:
+- Each program must be properly documented with comments for clarity and should follow a naming convention (IA1Q#.py).
+- Along with the source code, students must submit a Word document (IA1.doc) summarizing their programming experience, including errors faced and time spent resolving them.
+- Specific learning objectives align with different tasks throughout the assignment, ensuring students absorb critical programming concepts and best practices during their initial programming experience.
+
+This assignment lays the foundation for programming skills, promoting a structured approach to coding, troubleshooting, and effective documentation.

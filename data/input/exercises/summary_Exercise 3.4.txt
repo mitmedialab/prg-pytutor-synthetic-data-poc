@@ -1,0 +1,36 @@
+### Summary of In-Class Exercise 3.4
+
+**Objective:** The exercise aims to reinforce students' understanding of conditional expressions and comparison operators in programming.
+
+**Topics Covered:**
+1. **Conditional Expressions:** 
+   - Students analyze which conditional expression correctly checks if the absolute value of a variable \( x \) is smaller than 4.
+
+   **Question 1 Options:**
+   - A. \( x \leq 4 \) and \( x \geq 4 \) (Incorrect)
+   - B. \( x \leq 4 \) and \( x > -4 \) (Incorrect)
+   - C. \( x \leq 4 \) and \( x \geq -4 \) (Correct)
+   - D. \( x \leq 4 \) or \( x \geq -4 \) (Incorrect)
+
+   The correct expression ensures that \( x \) falls within the range of -4 to 4.
+
+2. **Program Output Evaluation:**
+   - Students are prompted to evaluate a given program's output when the input values of 2, 3, and 6 are provided.
+
+   **Code Snippet:**
+   ```python
+   x = float(input("Enter a number: "))
+   y = float(input("Enter a number: "))
+   z = float(input("Enter a number: "))
+
+   print("(x < y and y < z) is", x < y and y < z)
+   print("(x < y or y < z) is", x < y or y < z)
+   print("not (x < y) is", not (x < y))
+   print("(x < y < z) is", x < y < z)
+   print("not (x < y < z) is", not (x < y < z))
+   ```
+
+   **Expected Output Explanation:**
+   - The program checks various conditions using the entered values, which helps students practice logical operations such as 'and', 'or', and 'not'.
+
+This exercise enhances understanding of programming logic and comparison operations, foundational concepts in introductory programming.

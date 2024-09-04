@@ -1,0 +1,63 @@
+## Summary of Lecture Slides for Introductory Programming Course
+
+### Objectives for Class 14
+- Review individual assignments IA4-IA7
+- Review Quiz 3 - Quiz 5
+- Discuss Final Exam Schedule
+- Inform about Group Project Schedule
+
+### Individual Assignments Overview
+
+#### Individual Assignment 4 (IA4)
+1. **IA4-2**: Create a program that converts letter grades (A, B, C, D) to numeric values (90, 80, 70, 60).
+   - Sample Input/Output demonstrated.
+   
+2. **IA4-3**: Program to display the number of days in a given month/year, including leap year logic.
+
+#### Individual Assignment 5 (IA5)
+1. **IA5-1**: Program to prompt the user for a string and output its length and last character.
+   
+2. **IA5-2**: Decide the major and academic year based on user input (e.g., "M1" for Mathematics Freshman).
+   
+3. **IA5-3**: Convert a 9-digit ISBN to a 10-digit ISBN, creating a checksum.
+
+#### Individual Assignment 6 (IA6)
+1. **IA6-1**: Gather integers from user input until "End" is entered; count even numbers and calculate average.
+   
+2. **IA6-2**: Count vowels and consonants in a string provided by the user.
+
+#### Individual Assignment 7 (IA7)
+1. **IA7-1**: Display the number of days in each year within a specified range, determining leap years.
+   
+2. **IA7-2**: Implement temperature conversion functionality between Celsius and Fahrenheit.
+
+#### Individual Assignment 8 (IA8)
+1. **IA8-1**: Count occurrences of a user-provided rating within a given list of ratings.
+   
+2. **IA8-2**: Count the frequency of ratings from 0 to 5.
+   
+3. **IA8-3**: Identify the individuals who provided the highest and lowest ratings.
+
+### Quizzes Overview
+- Quiz 3: Checks the identification of newline characters.
+- Quiz 4: Predict output of code snippets and string expressions.
+- Quiz 5: Evaluate the outcome of function calls.
+
+### Final Exam Overview
+- **Chapters to Review**: 
+   - Chapter 4: String manipulation and functions.
+   - Chapter 5: Loop control mechanisms and use of various loop types.
+   - Chapter 6: Functions including definitions, parameters, and scope.
+   - Chapter 7: Lists and their functionality.
+   - Chapter 8: Two-dimensional lists.
+
+- **Final Exam Schedule**: December 5th, 7:30 PM to 9:30 PM; pre-exam Q&A at 7:15 PM.
+- **Exam Preparation**: Review specific chapters, assignments, and quizzes.
+
+### Group Project
+- Due by December 11th, with options for recording presentations via Zoom or WebEx.
+
+### Test Design Matrix
+- The exam will include multiple choice questions, fill-in-the-blanks, and problem-solving components, with a total score of 100 points distributed across various topics.
+
+This summary encapsulates critical content intended to guide students through the course's current stage, focusing on key assignments, quizzes, and exam preparation strategies.

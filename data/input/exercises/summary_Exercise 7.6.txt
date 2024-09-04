@@ -1,0 +1,15 @@
+### Summary of In-Class Exercise 7.6
+
+**General Purpose:**  
+The exercise aims to reinforce students' understanding of functions in programming by creating a function that modifies a list by removing its first and last elements.
+
+**Main Topics Covered:**  
+1. **Function Definition:** Students learn to define a function using the specified header: `def chop(lst)`.
+2. **List Manipulation:** The exercise focuses on manipulating lists by removing specific elements (the first and last elements).
+3. **Testing Functions:** Students are given a sample code snippet to test the functionality of their `chop` function using a predefined list.
+
+**Critical Details:**  
+- The function modifies the original list, and the expected behavior is demonstrated with the test code `t = [1, 2, 3, 4]`, followed by `chop(t)`, with the outcome being that the list `t` should be changed to `[2, 3]`.
+- Understanding the distinction between modifying a list in place and returning a new list is essential for grasping list operations in programming.
+
+This exercise enhances foundational skills in function creation and list handling, critical aspects of programming.

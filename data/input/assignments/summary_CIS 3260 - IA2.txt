@@ -1,0 +1,33 @@
+### Summary of CIS 3260 – Introduction to Programming Individual Assignment 2
+
+**General Purpose:**  
+This assignment aims to reinforce programming skills in Python by engaging students in practical exercises, focusing on reading inputs, performing calculations, error handling, and documenting code effectively. It helps students understand the basic programming concepts while ensuring good coding practices.
+
+**Main Topics Covered:**
+
+1. **Input and Output Handling:**
+   - Writing programs that read user inputs (e.g., investment amounts, interest rates, subtotals, gratuity rates).
+   - Displaying processed outputs in a readable format.
+
+2. **Core Programming Concepts:**
+   - Implementing mathematical calculations using formulas (e.g., future investment value and gratuity).
+   - Utilizing specific operators (addition, multiplication) to derive outputs based on user inputs.
+
+3. **Understanding and Managing Errors:**
+   - Students are required to identify and document errors encountered during coding (syntax, runtime, logical errors).
+   - The assignment prompts the explanation of error types, resolution strategies, and time taken to fix issues, emphasizing troubleshooting skills.
+
+4. **Documenting Code:**
+   - Emphasis on writing clean and readable code, including proper commenting.
+   - Students must include their name and email as comments at the top of their scripts, promoting good documentation practices.
+
+5. **Programming Setup and Submission:**
+   - Use of specific file naming conventions and the submission process via iCollege, which teaches organizational skills in coding projects.
+
+**Critical Details:**
+- The assignment consists of two main programming tasks focused on calculations pertaining to investment and gratuity.
+- Each program submission requires a written explanation of inputs, outputs, and coding steps, ensuring comprehension of the programming process.
+- Screenshots of outputs are necessary for verifying code functionality.
+- Educational objectives are aligned with specific chapters and sections from the course materials, ensuring a structured learning path in programming fundamentals.
+
+This assignment combines practical programming tasks with theoretical learning, enhancing both problem-solving skills and coding practices among students.

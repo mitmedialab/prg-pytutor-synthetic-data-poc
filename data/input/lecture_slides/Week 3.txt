@@ -1,0 +1,49 @@
+### Summary of Lecture Slides for Introductory Programming Course - Class 3
+
+#### Objectives
+- **Chapter 2:**
+  - **Augmented Assignment Operators**: Learn to simplify code using operators like `+=`.
+  - **Numeric Type Conversion and Rounding**: Introduction to `round` function and type conversions.
+  - **Software Development Process**: Understand the phases involved in developing a loan payment program.
+  
+- **Chapter 3:**
+  - **Boolean Expressions**: Writing expressions using relational operators.
+  - **Random Numbers Generation**: Utilizing functions like `random.randint`, `random.randrange`, and `random.random`.
+  - **Selection Control**: Implementing one-way and two-way `if` statements.
+
+#### Key Concepts Covered
+
+1. **Augmented Assignment Operators**:
+   - Combination of assignment and arithmetic operations. Example: `i += j + j * 5`.
+   - A table of operators such as `+=`, `-=`, `*=` with equivalents is provided.
+
+2. **Data Types and Operations**:
+   - Understanding how Python recognizes types (string, integer, float).
+   - Examples show type compatibility and conversion using `int()` and `float()` functions.
+
+3. **String Conversion**:
+   - Demonstrated conversion from strings to integers/floats with error handling for invalid inputs.
+
+4. **Software Development Process**:
+   - **Seven Phases**:
+     1. Requirement Specification
+     2. System Analysis
+     3. System Design
+     4. Implementation
+     5. Testing
+     6. Deployment
+     7. Maintenance
+   - Emphasis on documented requirements and iterative processes.
+
+5. **Loan Payment Calculation Program**:
+   - Formula provided for computing monthly loan payments.
+   - Steps defined for software implementation, from user input to displaying results.
+   - Sample Python code for computing monthly and total payments based on user inputs for interest rate, years, and loan amount.
+
+6. **Testing the Program**:
+   - Importance of verifying outputs with example test inputs to ensure correct functionality.
+
+### Exercises
+- Exercises related to the use of augmented assignment, numeric conversion, and practical applications of software development processes were included to reinforce learning objectives.
+
+This session lays the foundation for understanding basic programming constructs, data types, and software development methodology through hands-on problem-solving with a practical example (loan payment program).

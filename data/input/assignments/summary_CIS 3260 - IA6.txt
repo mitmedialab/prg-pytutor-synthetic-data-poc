@@ -1,0 +1,27 @@
+### Summary of CIS 3260 – Introduction to Programming Individual Assignment 6
+
+**General Purpose:**
+The assignment aims to reinforce fundamental programming concepts in Python, particularly focusing on input management, control structures including loops, functions, and error handling. It encourages students to enhance their coding practices by incorporating comments for clarity, systematic error resolution, and structuring programs effectively.
+
+**Main Topics Covered:**
+
+1. **Input Handling and Control Structures:**
+   - **Even Number Calculation (Objective 5.1, 5.2, 5.3):** Students create a program to process an unspecified number of integer inputs until the user types "End". The program counts even numbers and computes their average (excluding zeros). This introduces the use of loops to manage user input and calculating statistics from that input.
+   - **Vowel and Consonant Counting (Objective 5.3, 5.4):** A program to count vowels and consonants in a user-input string, emphasizing string manipulation and condition checking through loops.
+
+2. **Function Definition and Usage:**
+   - **ISBN Conversion Program:** This task requires students to create a function that converts a 9-digit ISBN to a 10-digit version. The assignment involves defining, implementing, and calling the function, which solidifies understanding of function structures in Python.
+
+3. **Error Handling:**
+   - Students are instructed to document errors encountered while programming, including the type of error and resolution steps. This not only fosters problem-solving skills but also emphasizes the importance of debugging in programming.
+
+4. **Commenting and Documentation:**
+   - The assignment mandates clear documentation through comments in code to enhance readability, which is essential for collaborative coding practices and for future reference.
+
+**Critical Details:**
+- Each section of the assignment includes a systematic breakdown of tasks (e.g., system analysis, design steps, and programming) to guide students through problem-solving processes.
+- Error resolution documentation is required to encourage reflection on coding challenges and solutions.
+- The integration of sample runs demonstrates expected output formats, aiding students in visualizing program functionality.
+
+**Objectives from Course Content:**
+The assignment aligns with learning objectives spanning various weeks, including the use of loops and functions, string manipulation, and control structures, reinforcing the concepts outlined in associated chapters of the course textbook. The students are expected to apply their knowledge in practical scenarios, enhancing both their theoretical and hands-on programming skills.

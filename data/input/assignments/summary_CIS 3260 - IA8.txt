@@ -1,0 +1,30 @@
+## Summary of CIS 3260 – Introduction to Programming Individual Assignment 8
+
+### Purpose of the Assignment
+The assignment aims to enhance students' understanding of Python programming through practical exercises focused on lists, system analysis, error handling, and program design. It emphasizes comment usage for code readability and encourages students to document their process and mistakes, reinforcing learning from errors.
+
+### Main Topics Covered
+1. **List Manipulation**: 
+   - Students will analyze and manipulate lists containing ratings, which involves both counting occurrences of specific values and tracking individual contributions to these ratings.
+   - Examples include counting how many times a user-rated specific values and determining the highest and lowest ratings along with the names of users who provided these ratings.
+
+2. **System Analysis and Design**: 
+   - Each exercise includes a systematic approach to identifying inputs and outputs, as well as structuring the steps needed to achieve desired results. Students are expected to outline their reasoning in English.
+  
+3. **Error Handling**: 
+   - Students are required to document and analyze errors encountered during coding. This includes identifying the type of error, how it was resolved, and the time spent on troubleshooting. This component develops problem-solving skills and familiarity with debugging.
+
+4. **Programming Concepts**: 
+   - Objective delivery is through practical coding exercises where students are required to use programming constructs learned in the course, such as loops, conditional statements, and lists.
+   - Specific programming practices, such as using comments effectively and adhering to naming conventions for files, are stressed to promote good coding habits.
+
+5. **Assessment Criteria**: 
+   - Each task has a clear point allocation that specifies the importance of each section, ensuring that students understand expectations across analysis, design, implementation, and error handling.
+
+### Critical Details
+- Students are instructed to create three separate programs corresponding to different tasks, each named according to a specified format.
+- The use of PyCharm is recommended for coding, aligning with standard practices in the industry.
+- The structure of submission requires both code files and a document containing analyses and outputs, integrating both programming and documentation skills.
+- Topics in the assignment correlate with broader course objectives that cover programming fundamentals, problem-solving techniques, and the importance of software documentation.
+
+This assignment collectively reinforces the application of theoretical concepts in practical settings, enhancing both programming proficiency and analytical skills among students.

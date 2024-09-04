@@ -1,0 +1,23 @@
+**Summary of In-Class Exercise for Introductory Programming Course**
+
+**Exercise Title:** Exercise 7.4  
+**Objectives:** Practice list manipulation methods in Python.  
+
+**Topics Covered:**
+1. **Appending Elements:** Adding a new ticket price to the list.
+2. **Counting Occurrences:** Determining how many times a specific value appears in the list.
+3. **Finding Indices:** Locating the position of the first occurrence of a specific value.
+4. **Inserting Elements:** Adding a new value at a specified index within the list.
+5. **Removing Elements:** Deleting the first instance of a specific value from the list or removing an element located at a specific index.
+6. **Sorting Lists:** Organizing the list of ticket prices in ascending order.
+
+**Tasks:**
+1. Append a ticket price of 45 to the list– `lst.append(45)`
+2. Count how many times the price 45 appears– `lst.count(45)`
+3. Find the index of the first occurrence of the price 50– `lst.index(50)`
+4. Insert a new price of 15 at index 2– `lst.insert(2, 15)`
+5. Remove the first occurrence of the price 50– `lst.remove(50)`
+6. Remove the element at index 3– `del lst[3]`
+7. Sort the list of prices in ascending order– `lst.sort()`
+
+This exercise emphasizes hands-on practice with Python list methods, enhancing students’ understanding of data manipulation in programming.

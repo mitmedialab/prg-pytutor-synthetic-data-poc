@@ -1,0 +1,20 @@
+### Summary of In-Class Exercise for Introductory Programming Course
+
+#### Purpose
+The purpose of this exercise is to reinforce students' understanding of loops in programming, specifically focusing on the differences between for loops and while loops, and to practice using basic input and output operations.
+
+#### Main Topics Covered
+1. **Understanding Code Output**: 
+   - Students are required to predict the output of a given piece of code that sums a specified number of inputs (in this case, three integers).
+   - The code includes a loop and utilizes the `input()` function to gather user data, as well as demonstrates variable accumulation.
+   
+2. **Loop Conversion**:
+   - The second part of the exercise challenges students to convert a while loop into a for loop, promoting an understanding of both loop structures and when to use each.
+
+#### Critical Details
+- **Exercise 5.4, Objective 5.4**: The exercise builds on the fundamental concepts of input handling, iteration with loops, and cumulative operations (sum).
+- **Code Understanding**: 
+  - The first code snippet initializes variables, takes three integer inputs, and computes their sum using a for loop, which emphasizes iteration over a predetermined number of times.
+  - The second snippet highlights the transition from a while loop—often used for an indefinite number of iterations until a condition is met—to a for loop, illustrating the flexibility and readability of code.
+
+This exercise is crucial for solidifying foundational programming concepts that will be built upon in future topics.

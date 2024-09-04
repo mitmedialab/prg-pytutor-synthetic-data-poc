@@ -1,0 +1,30 @@
+**Summary of In-Class Exercise 7.3 for Introductory Programming Course**
+
+**General Purpose:**
+The purpose of Exercise 7.3 is to provide practical experience in working with lists, traversing elements, counting occurrences, and modifying list items in Python, reinforcing the concepts covered in this week's lecture.
+
+**Main Topics Covered:**
+
+1. **List Creation:**
+   - Students are tasked with creating a list named `studentid_list`.
+
+2. **Data Insertion:**
+   - Four specific student IDs (1901, 1905, 1906, 1908) are to be added to the `studentid_list`.
+
+3. **Element Traversal:**
+   - The exercise requires students to traverse the `studentid_list`, which involves iterating through the list elements.
+
+4. **Counting Elements:**
+   - Students will count how many times the student ID 1901 appears in the list and then display this count.
+
+5. **List Modification:**
+   - The task involves updating the student ID 1901 to 1902 in `studentid_list`.
+
+6. **Displaying Results:**
+   - Students must display the updated version of `studentid_list` after making the change.
+
+**Critical Details:**
+- Emphasis is placed on list manipulation techniques such as counting, updating values, and displaying results.
+- The exercise aims to enhance students' understanding of list functionalities and their applicability in programming tasks. 
+
+This structured approach facilitates a hands-on learning experience, allowing students to apply their theoretical knowledge in a practical environment.

@@ -1,0 +1,29 @@
+## Summary of In-Class Exercise 2.4
+
+### Objective:
+This exercise aims to reinforce understanding of basic arithmetic operations, user input handling, and output formatting in programming.
+
+### Topics Covered:
+1. **Arithmetic Operations**:
+   - Participants evaluate the outcome of a series of assignments and expressions involving variables.
+
+2. **User Input and Output**:
+   - Students will write a program that prompts the user for a purchase amount and calculates the associated sales tax.
+
+3. **Formatting Output**:
+   - Modification of the initial program to display the sales tax rounded to two decimal places using the `round` function.
+
+### Details:
+1. **Question on Variable Assignment**:
+   - A code snippet is provided, where students need to determine the value of `x` after performing an arithmetic operation involving `y`.
+
+2. **Sales Tax Calculation Program**:
+   - Students create a program which:
+     - Takes user input for a purchase amount.
+     - Calculates the sales tax as 6% of that amount.
+     - Outputs the calculated tax.
+
+3. **Output Formatting Challenge**:
+   - Participants are tasked with enhancing their program to present the sales tax result formatted to two decimal points, utilizing Python's `round` function for clarity in monetary values.
+
+This exercise provides practical application of fundamental programming concepts, including variable manipulation, user interaction, and formatted output, critical for developing efficient coding skills in beginners.

@@ -1,64 +1,3 @@
-# media-pytutor-synthetic-data-poc
-
-Synthetica Data, Persona Generation PoC.
-
-## Personas Generations
-
-We use OpenAI's [Structured Output](https://platform.openai.com/docs/guides/structured-outputs/structured-outputs). Advantage of Structured Output is the schema adherance.
-
-```js
-const PersonDetails = z.object({
-  personas: z.array(
-    z.object({
-      id: z.string(),
-      name: z.string(),
-      occupation: z.string(),
-      details: z.string(),
-      challenges: z.string(),
-      interactions: z.string(),
-    })
-  ),
-});
-```
-
-The output will be stored in the data/output folder with the `student_personas_NUM_TIMESTAMP.json` naming convention.
-
-This is what a sample output looks like
-
-<details>
-<summary>a sample output file</summary>
-
-```json
-{
-  "personas": [
-    {
-      "id": "1",
-      "name": "Asha Patel",
-      "occupation": "Psychology Undergraduate Student",
-      "details": "Asha Patel is a 19-year-old female from Singapore, currently pursuing a Bachelor's degree in Psychology at a local university. She has a keen interest in how technology can be used to improve mental health services and is taking an introductory programming course to understand how software might be designed to support this field. Asha loves working on projects that combine her love for psychology with her growing interest in technology. She aims to develop her own mobile application that can help teenagers manage stress and anxiety.",
-      "challenges": "Despite her enthusiasm, Asha often struggles with the logical constructs of programming, finding it challenging to translate her ideas into code. She is also unfamiliar with technical jargon which makes theoretical concepts harder to grasp quickly.",
-      "interactions": "Asha prefers engaging with the course through practical assignments and hands-on projects rather than theoretical readings. She actively participates in online discussions and seeks help from her classmates and professors to clarify her doubts. She often joins study groups to collaborate on assignments and borrows time at the tech lab to experiment with coding exercises."
-    },
-    {
-      "id": "2",
-      "name": "Miguel Torres",
-      "occupation": "Business Management Student",
-      "details": "Miguel Torres is a 21-year-old male from Mexico, currently studying Business Management at a well-known international university. Though his primary focus is on business, he knows that understanding technology is crucial in today's market and has decided to explore programming to enhance his skill set. He is energetic, curious, and often thinks of ways to integrate technology into business strategies, especially in streamlining operations for small businesses.",
-      "challenges": "Miguel finds it difficult to abstract when learning new programming concepts and often needs concrete examples to see how they apply to real-world scenarios. Time management is also an issue for him as he juggles multiple commitments including sports and club activities.",
-      "interactions": "Miguel is a visual learner and benefits from video tutorials and interactive coding platforms which provide immediate feedback. He usually connects with his course instructors during office hours for one-on-one guidance and is active in discussion forums where he both asks questions and helps peers with business-related applications of programming."
-    }
-  ]
-}
-```
-
-</details>
-
-## Chats Simulation
-
-<details>
-<summary>a sample output file</summary>
-
-```json
 {
   "personas": [
     {
@@ -151,6 +90,3 @@ This is what a sample output looks like
     }
   ]
 }
-```
-
-</details>

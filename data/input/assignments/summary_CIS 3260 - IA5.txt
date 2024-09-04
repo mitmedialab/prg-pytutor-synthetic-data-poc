@@ -1,0 +1,40 @@
+### Summary of CIS 3260 – Introduction to Programming Individual Assignment 5
+
+**Purpose of the Document:**
+The assignment aims to enhance students' understanding of basic programming concepts in Python, focusing on string manipulation, error handling, and program design. It encourages students to apply theoretical knowledge through practical coding exercises and reinforces good programming practices, such as code commenting and project organization.
+
+**Main Topics Covered:**
+
+1. **Text Processing Tool:** 
+   - Developing a program that calculates the length of a string and identifies its last character.
+   - Important concepts include:
+     - String handling functions and methods (e.g., obtaining string length).
+     - Use of indexing (negative index) to access string elements.
+     - Writing clear documentation and comments in code.
+     - System analysis and design methods.
+
+2. **Multiple Way Decision Statements:**
+   - Reinforces decision-making in code using user input to determine student status and major from single-character entries.
+   - Students are tasked with:
+     - Analyzing input and output for the program.
+     - Expressing conditions for output through Boolean expressions.
+     - Leveraging conditional statements in Python.
+     - Sharing problem-solving experiences regarding encountered errors.
+
+3. **ISBN Conversion Program:**
+   - Creating a program to convert ISBN-9 to ISBN-10.
+   - This section emphasizes:
+     - Understanding of string validation for input length.
+     - Basic arithmetic operations to compute checksums.
+     - Displaying results with proper formatting, including leading zeros and handling special output cases (i.e., when checksum is 10).
+     - Implementing error checks without the use of loops, which introduces students to alternative coding techniques.
+
+**Critical Details for Understanding:**
+- **Error Handling:** Students must document errors they encounter during programming, detailing the type of error (syntax, run-time, logical), how they resolved it, and time spent on diagnosis and fixing.
+- **Code Organization:** Emphasis is placed on creating well-structured programs with appropriately named files and comprehensive commenting for readability.
+- **Learning Objectives:** The assignment references specific learning objectives, including:
+  - The ability to implement Boolean expressions.
+  - Use of selection control structures.
+  - String processing capabilities, including character encoding and string functions.
+  
+By working through these assignments, students develop a strong foundation in Python programming related to strings and decision-making, alongside practical experience in troubleshooting and documentation.

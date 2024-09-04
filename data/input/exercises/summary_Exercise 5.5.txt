@@ -1,0 +1,17 @@
+**Summary of In-Class Exercise 5.5**
+
+This in-class exercise is designed to assess students' understanding of infinite loops and termination conditions in programming, aligned with Objective 5.4 from this week's lecture.
+
+### Main Topics Covered:
+1. **Infinite Loops**: The exercise challenges students to evaluate whether a given while loop will terminate based on its control flow.
+2. **Condition Evaluation**: Students must analyze the conditions under which the loop's termination occurs, specifically focusing on the balance variable.
+3. **Logic of Decrementing Values**: The exercise demonstrates how the balance variable is decremented and how it relates to the loop's continuation.
+
+### Critical Details:
+- The initial value of `balance` is set to 10.
+- The loop will continue indefinitely (`while True`) until the condition `if balance < 9` is met.
+- Inside the loop, the `balance` is decremented by 9 each iteration.
+- Students are prompted to choose between two options: A. Yes (the program will terminate) or B. No (the program will not terminate).
+- Understanding this example helps solidify concepts of loop behavior and conditional logic in programming. 
+
+Overall, through this exercise, students practice critical thinking and logic application relevant to programming constructs.
