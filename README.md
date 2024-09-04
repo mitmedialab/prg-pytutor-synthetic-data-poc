@@ -87,7 +87,7 @@ const ChatsDetails = z.object({
 You can run it in 2 modes.
 
 - `all` mode will loop through the `data/input` folder and use each file as the `courseContext` to generate the simulated data. It will replicate the same folder structure as in `data/input` to produce the output files in the folder `data/output/chats` with the naming convention `simulated_chat_course_description.txt`
-- `example` mode will
+- `example` mode will not loop through all the files but rather generate a single example output file.
 
 <details>
 <summary>a sample output file</summary>

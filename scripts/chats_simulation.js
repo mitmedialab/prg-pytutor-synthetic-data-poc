@@ -9,7 +9,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 ////////////////////// define constants ///////////////////////////////////////////////
 const NUM_OF_CHATS = 20;
-const MODE = "all"; // We are now processing all files
+const MODE = "example"; // We are now processing all files. Change it to "example" for an example
 const INPUT_DIR = "./data/input"; // Input folder path
 const OUTPUT_DIR = "./data/output/chats"; // Output folder path
 const AI_TUTOR_PROMPT = `
@@ -111,24 +111,31 @@ const ensureDirectoryExists = (filePath) => {
 };
 
 async function main() {
-  // Get all files in the input directory
-  const files = getFilesInDirectory(INPUT_DIR);
+  if (MODE === "all") {
+    // Get all files in the input directory
+    const files = getFilesInDirectory(INPUT_DIR);
 
-  for (const file of files) {
-    try {
-      // Process each file and generate a simulated chat
-      const simulatedChat = await processFile(file);
+    for (const file of files) {
+      try {
+        // Process each file and generate a simulated chat
+        const simulatedChat = await processFile(file);
 
-      // Generate output file path and ensure the directory exists
-      const outputFilePath = generateOutputFilePath(file);
-      ensureDirectoryExists(outputFilePath);
+        // Generate output file path and ensure the directory exists
+        const outputFilePath = generateOutputFilePath(file);
+        ensureDirectoryExists(outputFilePath);
 
-      // Write the simulated chat to the output file
-      fs.writeFileSync(outputFilePath, simulatedChat);
-      console.log(`Successfully processed and saved: ${outputFilePath}`);
-    } catch (error) {
-      console.error(`Error processing file ${file}:`, error);
+        // Write the simulated chat to the output file
+        fs.writeFileSync(outputFilePath, simulatedChat);
+        console.log(`Successfully processed and saved: ${outputFilePath}`);
+      } catch (error) {
+        console.error(`Error processing file ${file}:`, error);
+      }
     }
+  } else if (MODE === "example") {
+    const simulatedChat = await processFile(
+      "data/input/course_description.txt"
+    );
+    fs.writeFileSync("data/output/simulated_chat_example.json", simulatedChat);
   }
 }
 
