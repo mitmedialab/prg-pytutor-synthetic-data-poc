@@ -93,10 +93,11 @@ const processFile = async (filePath) => {
 // Function to generate output file path with the same structure in the output folder
 const generateOutputFilePath = (inputFilePath) => {
   const relativePath = path.relative(INPUT_DIR, inputFilePath);
+  const baseName = path.basename(inputFilePath, path.extname(inputFilePath)); // Get the base name without the extension
   const outputFilePath = path.join(
     OUTPUT_DIR,
     path.dirname(relativePath),
-    `simulated_chat_${path.basename(inputFilePath)}.json`
+    `simulated_chat_${baseName}.json` // Append .json after removing original extension
   );
   return outputFilePath;
 };
